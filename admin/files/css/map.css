@@ -1,0 +1,38 @@
+.mapsetting{
+	height: 480px; 
+	position: relative; 
+	background-color: rgb(229, 227, 223); 
+	overflow: hidden;
+}
+.red-heart { color: red; }
+ .iv-top-buffer { margin-top:10px!important; }
+#map-marker-info .address, .map-marker-info .rating, .map-marker-info h5 {
+    margin: 0.5em 70px 0.5em 0px;
+    display: block;
+}
+#map-marker-info .map-marker-info .list-cover {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+}
+#map-marker-info .list-cover {
+    background-size: cover;
+    background-position: center center;
+    width: 60px;
+    height: 60px;
+}
+.thumbnail {
+    position: relative;
+    height: 135px;
+    overflow: hidden;
+	border: 0px !important;
+    img {
+        width:920px
+        max-width: 920px; //only set this if using Twitter Bootstrap
+        position: absolute;
+        left:50%;
+        margin-left: -460px; //half of the image size
+    }
+}

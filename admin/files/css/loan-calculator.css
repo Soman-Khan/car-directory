@@ -1,0 +1,183 @@
+.Principleper-background{
+	background:#95a5a6;
+}
+.Interestper-background{
+	background:#6c7a89;
+}
+
+input[type="text"]:focus{
+        outline: none !important;
+	 }
+    .input-box,.loan-period, .down-payment, .interest-rate{
+        background-color: #F6F6F6;
+        padding: 10px 10px;
+    }
+    .input-box{
+        padding-bottom: 0px;
+    }
+
+    .loan-period label, .loan-period select, .down-payment label, .down-payment select{
+        display: block;
+        width: 100%;
+    }
+    .loan-period select, .down-payment select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    #slider-range-min, #slider-total-amount{
+        height: 8px;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .calculate{
+        height: 40px !important;
+    }
+    #slider-total-amount, #slider-range-min-3, #slider-down-payment, #slider-range-min-5{
+        height: 8px;
+        width: 60%;
+        margin-top: 10px;
+    }
+    #total-price, #loan-period, #interest-rate-input{
+        width: 35%;
+        text-align: right;
+    }
+     #interest-rate{
+         text-align: right;
+     }
+    .monthlyPayment, .totalPayable{
+        margin: 0 -15px;
+    }
+    #down-payment{
+        width: 35%;
+    }
+    #down-payment .percentage{
+        width: 25%;
+        height: 30px;
+        text-align: center;
+        background: #D1D1D1;
+        padding-top: 4px !important;
+        font-size: 15px !important;
+        border-radius: 0;
+        border-top-left-radius: 3px !important;
+        border-bottom-left-radius: 3px !important;
+    }
+    #down-payment input[type="text"]{
+        width: 50%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-right: none;
+        text-align: right;
+    }
+    #down-payment .dprice{
+        width: 25%;
+        text-align: center;
+        padding-top: 4px !important;
+        font-size: 15px !important;
+        border-radius: 0 !important;
+        border-top: 1px solid #D1D1D1;
+        border-right: 1px solid #D1D1D1;
+        border-bottom: 1px solid #D1D1D1;
+        border-top-right-radius: 3px !important;
+        border-bottom-right-radius: 3px !important;
+        height: 30px;
+        box-sizing: border-box;
+    }
+    #total-price input[type="text"]{
+        width: 75%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right: none;
+        text-align: right;
+        outline: none;
+    }
+    #total-price .tprice{
+        width: 25%;
+        text-align: center;
+
+        padding-top: 4px !important;
+        font-size: 15px !important;
+        border-radius: 0 !important;
+        border-top: 1px solid #D1D1D1;
+        border-right: 1px solid #D1D1D1;
+        border-bottom: 1px solid #D1D1D1;
+        border-top-right-radius: 3px !important;
+        border-bottom-right-radius: 3px !important;
+        height: 30px;
+        box-sizing: border-box;
+    }
+    #loan-period input[type="text"]{
+        width: 70%;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        border-right: none;
+        text-align: right;
+    }
+    #loan-period .years{
+        width: 30%;
+        text-align: center;
+        padding-top: 4px !important;
+        font-size: 15px !important;
+        border-radius: 0 !important;
+        border-top: 1px solid #D1D1D1;
+        border-right: 1px solid #D1D1D1;
+        border-bottom: 1px solid #D1D1D1;
+        border-top-right-radius: 3px !important;
+        border-bottom-right-radius: 3px !important;
+        height: 30px;
+        box-sizing: border-box;
+        font-weight: normal !important;
+    }
+    .totalPrice input[type="text"], .loanPeriod input[type="text"], .downPayment input[type="text"], .interestRate input[type="text"]{
+        height: 30px;
+        background: transparent;
+    }
+    .interestRate input[type="text"]{
+        width: !important;
+    }
+    .totalPrice input[type="text"]:focus, .loanPeriod input[type="text"]:focus, .downPayment input[type="text"]:focus, .interestRate input[type="text"]:focus{
+        outline: none !important;
+        outline-color: #D1D1D1 !important;
+        border: 1px solid #D1D1D1 !important;
+        border-right: none !important;
+    }
+    .interestRate input[type="text"]:focus{
+        border: 1px solid #D1D1D1 !important;
+    }
+    .ui-slider .ui-slider-handle {
+    	position: absolute;
+    	z-index: 2;
+    	width: 20px !important;
+    	height: 20px !important;
+        border-radius: 50% !important;
+    	cursor: default;
+    }
+    .ui-slider-horizontal .ui-slider-handle {
+    	top: -8px !important;
+
+    }
+    .text-bold{
+        font-weight: 600 !important;
+    }
+    .paymentBreakDown{
+        width: 100%;
+    }
+    .dp-percentage{
+        width: 50%;
+    }
+    .dp-percentage-2{
+        min-width: 50%;
+    }
+
+	/* for 2019 theme */
+	.interestRate input[type="text"]{
+		width: 100%;
+	}
+	h1:not(.site-title)::before, h2::before {
+	display: inline-block !important;
+	height: 0 !important;
+}

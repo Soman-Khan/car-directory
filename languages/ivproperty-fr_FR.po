@@ -1,0 +1,3255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-11 09:49+0000\n"
+"PO-Revision-Date: 2020-05-12 10:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.3.3; wp-5.2.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/notification.php:5
+#, fuzzy
+msgid "New listing added"
+msgstr "Ajoutez une nouvelle annonce"
+
+#: inc/notification.php:6
+msgid ""
+"New listing added to your site. You can publish or delete from your site "
+"dashboard"
+msgstr ""
+
+#: admin/pages/all_coupons.php:35 admin/pages/all_coupons.php:114
+#, fuzzy
+msgid "Create A New Coupon"
+msgstr "Date de création"
+
+#: admin/pages/all_coupons.php:44
+msgid "Coupon List"
+msgstr ""
+
+#: admin/pages/all_coupons.php:60
+#, fuzzy
+msgid "Coupon Code/ Name"
+msgstr "Entrer votre code de réduction"
+
+#: admin/pages/all_coupons.php:61 admin/pages/coupon_create.php:120
+#: admin/pages/coupon_update.php:146
+#, fuzzy
+msgid "Start Date"
+msgstr "Date de création"
+
+#: admin/pages/all_coupons.php:62
+#, fuzzy
+msgid "End Date"
+msgstr "Date"
+
+#: admin/pages/all_coupons.php:63
+msgid "Uses Limit"
+msgstr ""
+
+#: admin/pages/all_coupons.php:64 admin/pages/coupon_create.php:133
+#: admin/pages/coupon_update.php:159 admin/pages/package_all.php:165
+#: template/private-profile/iv_stripe_form_upgrade.php:60
+#: template/private-profile/profile-level-1.php:524
+#: template/signup/iv_stripe_form_2.php:69 template/signup/paypal_form_2.php:45
+msgid "Amount"
+msgstr "Forfait"
+
+#: admin/pages/all_coupons.php:65 admin/pages/directory_fields.php:64
+#: admin/pages/package_all.php:170 admin/pages/payment-settings.php:44
+#: admin/pages/profile-fields.php:42 admin/pages/user_directory_admin.php:109
+msgid "Action"
+msgstr "Action"
+
+#: admin/pages/all_coupons.php:104
+#, php-format
+msgid ""
+"Note : Coupon will work on \"One Time Payment\" only. Coupon will not work "
+"on recurring payment and it will not support 100% discount.\t"
+msgstr ""
+
+#: admin/pages/city_image.php:25 admin/pages/settings.php:40
+#, fuzzy
+msgid "Cities Images"
+msgstr "Catégorie d'image"
+
+#: admin/pages/city_image.php:25
+msgid "[Cities will get from your listings]"
+msgstr ""
+
+#: admin/pages/city_image.php:36
+#, fuzzy
+msgid "City Name"
+msgstr "Ville"
+
+#: admin/pages/city_image.php:38
+#, fuzzy
+msgid "City Image"
+msgstr "Catégorie d'image"
+
+#: admin/pages/city_image.php:92
+#: template/private-profile/profile-template-1.php:661
+#, fuzzy
+msgid "Set Image"
+msgstr "Paramétrer les images de plans"
+
+#: admin/pages/coupon_create.php:52 admin/pages/coupon_create.php:143
+#, fuzzy
+msgid "Save Coupon"
+msgstr "Masquer le coupon"
+
+#: admin/pages/coupon_create.php:56
+#, fuzzy
+msgid "Create New Coupon "
+msgstr "Date de création"
+
+#: admin/pages/coupon_create.php:66 admin/pages/coupon_update.php:86
+#, fuzzy
+msgid "Coupon Name"
+msgstr "Ville"
+
+#: admin/pages/coupon_create.php:72 admin/pages/coupon_update.php:92
+#, fuzzy
+msgid "Discount Type"
+msgstr "Coupon de réduction"
+
+#: admin/pages/coupon_create.php:75 admin/pages/coupon_update.php:98
+#, fuzzy
+msgid "Fixed Amount"
+msgstr "Montant essai"
+
+#: admin/pages/coupon_create.php:76 admin/pages/coupon_update.php:99
+msgid "Percentage"
+msgstr ""
+
+#: admin/pages/coupon_create.php:83 admin/pages/coupon_update.php:107
+#, fuzzy
+msgid "Package Only"
+msgstr "Type de Formule"
+
+#: admin/pages/coupon_create.php:112 admin/pages/coupon_update.php:138
+msgid "Usage Limit"
+msgstr ""
+
+#: admin/pages/coupon_create.php:127 admin/pages/coupon_update.php:153
+#, fuzzy
+msgid "Expire Date"
+msgstr "Date expiration"
+
+#: admin/pages/coupon_create.php:149 admin/pages/coupon_update.php:170
+#, php-format
+msgid ""
+"Note : Coupon will work on \"One Time Payment\" only. Coupon will not work "
+"on recurring payment and it will not support 100% discount.\t\t"
+msgstr ""
+
+#: admin/pages/coupon_update.php:62 admin/pages/coupon_update.php:68
+#: admin/pages/coupon_update.php:176
+#, fuzzy
+msgid "Update Coupon"
+msgstr "Masquer le coupon"
+
+#: admin/pages/csv-import.php:31
+msgid "Step 1"
+msgstr ""
+
+#: admin/pages/csv-import.php:35 admin/pages/csv-import.php:70
+msgid "Upload CSV File"
+msgstr ""
+
+#: admin/pages/csv-import.php:40
+msgid "Step 2"
+msgstr ""
+
+#: admin/pages/csv-import.php:44
+msgid "Column mapping"
+msgstr ""
+
+#: admin/pages/csv-import.php:49
+msgid "Step 3"
+msgstr ""
+
+#: admin/pages/csv-import.php:53
+#, fuzzy
+msgid "Import"
+msgstr "Importer la démo"
+
+#: admin/pages/csv-import.php:58
+msgid "Step 4"
+msgstr ""
+
+#: admin/pages/csv-import.php:62 admin/pages/csv-import.php:100
+msgid "Done!"
+msgstr ""
+
+#: admin/pages/csv-import.php:77
+msgid ""
+"This tool allows you to import (or merge) listing data to your site from a "
+"CSV file."
+msgstr ""
+
+#: admin/pages/csv-import.php:78
+msgid "If CSV ID filed value match your listing ID then it will update/merge"
+msgstr ""
+
+#: admin/pages/csv-import.php:79
+msgid "Sample CSV File"
+msgstr ""
+
+#: admin/pages/csv-import.php:86
+msgid "Run The importer"
+msgstr ""
+
+#: admin/pages/deal-message.php:2
+msgid "Deal/ Coupon Message Subject : "
+msgstr ""
+
+#: admin/pages/deal-message.php:14
+msgid "Deal/ Coupon Message Template :"
+msgstr ""
+
+#: admin/pages/dir-demo.php:24
+msgid "Demo Import"
+msgstr "Importer la démo"
+
+#: admin/pages/dir-demo.php:36
+#, fuzzy
+msgid "View All Listing"
+msgstr "Toutes les annonces"
+
+#: admin/pages/dir-demo.php:43
+#, fuzzy
+msgid "Import Demo Listing"
+msgstr "Importer la démo au format XML"
+
+#: admin/pages/dir-demo.php:96
+#, fuzzy
+msgid "Importing CSV Data "
+msgstr "Importer au format CSV"
+
+#: admin/pages/dir-demo.php:111
+msgid "Home Page Content"
+msgstr ""
+
+#: admin/pages/dir-demo.php:112
+msgid "Create a full width page and paste the code"
+msgstr ""
+
+#: admin/pages/dir-demo.php:113
+msgid "Download & import the top Revolution Slider"
+msgstr ""
+
+#: admin/pages/dir-demo.php:145
+msgid "Some Important shortcode"
+msgstr ""
+
+#: admin/pages/dir-demo.php:146
+#, fuzzy
+msgid "All Shortcodes"
+msgstr "Code abrégé"
+
+#: admin/pages/directory_fields.php:31 admin/pages/directory_fields.php:184
+#: admin/pages/profile-fields.php:21 admin/pages/profile-fields.php:254
+#: admin/pages/settings.php:264 admin/pages/settings.php:385
+#: admin/pages/settings.php:452 admin/pages/settings.php:650
+msgid "Update"
+msgstr "Mettre  jour"
+
+#: admin/pages/directory_fields.php:39 admin/pages/settings.php:36
+msgid "Listing Fields"
+msgstr "Liste de champs des annonces"
+
+#: admin/pages/directory_fields.php:58
+msgid "Post Meta Name[no space]"
+msgstr ""
+
+#: admin/pages/directory_fields.php:61
+msgid "Display Label"
+msgstr "Afficher libellé personnalisé"
+
+#: admin/pages/directory_fields.php:133 admin/pages/metabox_full_data.php:391
+#: admin/pages/metabox_full_data.php:463 admin/pages/profile-fields.php:245
+#: template/private-profile/profile-edit-post-1.php:498
+#: template/private-profile/profile-edit-post-1.php:568
+#: template/private-profile/profile-new-post-1.php:537
+#: template/private-profile/profile-new-post-1.php:664
+msgid "Add More"
+msgstr "Ajouter"
+
+#: admin/pages/dir_setting.php:20
+msgid "Listing Setting"
+msgstr "Paramétrage des annonces"
+
+#: admin/pages/dir_setting.php:36
+#, fuzzy
+msgid "Default listing View"
+msgstr "Masquer l'option vidéo "
+
+#: admin/pages/dir_setting.php:36 admin/pages/package_all.php:298
+msgid "View Page"
+msgstr "Voir la page"
+
+#: admin/pages/dir_setting.php:42 admin/pages/dir_setting.php:252
+#, fuzzy
+msgid "List View"
+msgstr "Liste"
+
+#: admin/pages/dir_setting.php:47 admin/pages/dir_setting.php:435
+msgid "Grid View"
+msgstr ""
+
+#: admin/pages/dir_setting.php:57
+#: template/property/archive-property-style-1.php:256
+#: template/property/single-property.php:785
+msgid "Review"
+msgstr "Avis"
+
+#: admin/pages/dir_setting.php:61
+msgid "Show Review"
+msgstr "Afficher les avis"
+
+#: admin/pages/dir_setting.php:66
+msgid "Hide Review"
+msgstr "Masquer les avis"
+
+#: admin/pages/dir_setting.php:77 admin/pages/metabox_full_data.php:496
+#: template/private-profile/profile-edit-post-1.php:687
+#: template/private-profile/profile-new-post-1.php:699
+msgid "Call Button"
+msgstr ""
+
+#: admin/pages/dir_setting.php:81 admin/pages/metabox_full_data.php:500
+#: template/private-profile/profile-edit-post-1.php:690
+#: template/private-profile/profile-new-post-1.php:702
+msgid "Show Call Button"
+msgstr ""
+
+#: admin/pages/dir_setting.php:86 admin/pages/metabox_full_data.php:505
+#: template/private-profile/profile-edit-post-1.php:695
+#: template/private-profile/profile-new-post-1.php:707
+#, fuzzy
+msgid "Hide Call Button"
+msgstr "Masquer le coupon"
+
+#: admin/pages/dir_setting.php:96 admin/pages/metabox_full_data.php:520
+#: template/private-profile/profile-edit-post-1.php:708
+#: template/private-profile/profile-new-post-1.php:720
+msgid "Email Button"
+msgstr ""
+
+#: admin/pages/dir_setting.php:100 admin/pages/metabox_full_data.php:524
+#: template/private-profile/profile-edit-post-1.php:711
+#: template/private-profile/profile-new-post-1.php:723
+msgid "Show Email Button"
+msgstr ""
+
+#: admin/pages/dir_setting.php:105 admin/pages/metabox_full_data.php:529
+#: template/private-profile/profile-edit-post-1.php:716
+#: template/private-profile/profile-new-post-1.php:728
+#, fuzzy
+msgid "Hide Email Button"
+msgstr "Masquer l'adresse e-mail"
+
+#: admin/pages/dir_setting.php:116 admin/pages/metabox_full_data.php:544
+#: template/private-profile/profile-edit-post-1.php:729
+#: template/private-profile/profile-new-post-1.php:741
+msgid "SMS Button"
+msgstr ""
+
+#: admin/pages/dir_setting.php:120 admin/pages/metabox_full_data.php:548
+#: template/private-profile/profile-edit-post-1.php:732
+#: template/private-profile/profile-new-post-1.php:744
+msgid "Show SMS Button"
+msgstr ""
+
+#: admin/pages/dir_setting.php:125 admin/pages/metabox_full_data.php:553
+#: template/private-profile/profile-edit-post-1.php:737
+#: template/private-profile/profile-new-post-1.php:749
+#, fuzzy
+msgid "Hide SMS Button"
+msgstr "Masquer le coupon"
+
+#: admin/pages/dir_setting.php:136
+#, fuzzy
+msgid "Load Per Page"
+msgstr "Afficher plus"
+
+#: admin/pages/dir_setting.php:144
+#, fuzzy
+msgid "Page Background color"
+msgstr "Couleur d'arrière plan"
+
+#: admin/pages/dir_setting.php:156
+#, fuzzy
+msgid "Content Background color [List View]"
+msgstr "Couleur d'arrière plan"
+
+#: admin/pages/dir_setting.php:172
+msgid "Property Custom Post Type"
+msgstr "Type d'annonce personnalisée"
+
+#: admin/pages/dir_setting.php:181
+msgid "No special characters, no upper case, no space"
+msgstr ""
+
+#: admin/pages/dir_setting.php:186
+msgid "VIP image"
+msgstr "Image VIP"
+
+#: admin/pages/dir_setting.php:207
+#: template/private-profile/profile-template-1.php:422
+msgid "Change Image"
+msgstr "Modifier l'image"
+
+#: admin/pages/dir_setting.php:218
+#, fuzzy
+msgid "Font: Listing archive & detail page"
+msgstr "Page des archives"
+
+#: admin/pages/dir_setting.php:222
+msgid "Quicksand font"
+msgstr ""
+
+#: admin/pages/dir_setting.php:227
+msgid "Use Theme Font"
+msgstr ""
+
+#: admin/pages/dir_setting.php:237 admin/pages/dir_setting.php:241
+#, fuzzy
+msgid "Load jQuery"
+msgstr "Afficher plus"
+
+#: admin/pages/dir_setting.php:246
+msgid "Do not load jQuery"
+msgstr ""
+
+#: admin/pages/dir_setting.php:262
+#: template/property/archive-property-style-2.php:156
+#: template/property/archive-property-style-2.php:469
+#, fuzzy
+msgid "Categories"
+msgstr "Catégorie principale"
+
+#: admin/pages/dir_setting.php:264
+msgid "Left Faceted Search"
+msgstr ""
+
+#: admin/pages/dir_setting.php:267 admin/pages/dir_setting.php:285
+#: admin/pages/dir_setting.php:303 admin/pages/dir_setting.php:322
+#: admin/pages/dir_setting.php:340 admin/pages/dir_setting.php:360
+#: admin/pages/dir_setting.php:378 admin/pages/dir_setting.php:396
+#, fuzzy
+msgid "Show"
+msgstr "Afficher Tout"
+
+#: admin/pages/dir_setting.php:281 admin/pages/dir_setting.php:902
+#: admin/pages/metabox_full_data.php:94
+#: template/private-profile/profile-edit-post-1.php:241
+#: template/private-profile/profile-new-post-1.php:203
+#: template/property/archive-property-style-2.php:170
+#: template/property/archive-property-style-2.php:476
+msgid "City"
+msgstr "Ville"
+
+#: admin/pages/dir_setting.php:299 admin/pages/dir_setting.php:603
+#: admin/pages/metabox_full_data.php:203
+#: template/private-profile/profile-edit-post-1.php:229
+#: template/private-profile/profile-edit-post-1.php:334
+#: template/private-profile/profile-new-post-1.php:191
+#: template/private-profile/profile-new-post-1.php:425
+#: template/property/archive-property-style-2.php:184
+#: template/property/archive-property-style-2.php:483
+#: template/property/single-property.php:293
+#: template/property/single-property.php:409
+msgid "Area"
+msgstr "Superficie"
+
+#: admin/pages/dir_setting.php:318 admin/pages/dir_setting.php:730
+#: template/property/archive-property-style-2.php:161
+#: template/property/archive-property-style-2.php:497
+#: template/property/single-property.php:681
+msgid "Features"
+msgstr "Caractéristiques"
+
+#: admin/pages/dir_setting.php:336 admin/pages/dir_setting.php:974
+#: template/private-profile/profile-edit-post-1.php:245
+#: template/private-profile/profile-new-post-1.php:207
+#: template/property/archive-property-style-2.php:198
+#: template/property/archive-property-style-2.php:490
+#: template/property/archive-top-search.php:113
+msgid "Zipcode"
+msgstr "Code postal"
+
+#: admin/pages/dir_setting.php:356
+#: template/property/archive-property-style-2.php:518
+#, fuzzy
+msgid "Reviews"
+msgstr "Avis"
+
+#: admin/pages/dir_setting.php:374
+#: template/property/archive-property-style-2.php:504
+#, fuzzy
+msgid "Beds"
+msgstr "Min chambre(s)"
+
+#: admin/pages/dir_setting.php:392
+#: template/property/archive-property-style-2.php:511
+#, fuzzy
+msgid "Baths"
+msgstr "Salle(s) de bain"
+
+#: admin/pages/dir_setting.php:440
+msgid "Listing Page Search Bar"
+msgstr "Barre de recherche de la page de la liste"
+
+#: admin/pages/dir_setting.php:444
+msgid "Show  Search Bar"
+msgstr "Afficher la barre de recherche"
+
+#: admin/pages/dir_setting.php:449
+msgid "Hide Search Bar"
+msgstr "Masquer la barre de recherche"
+
+#: admin/pages/dir_setting.php:454
+msgid "Grid columns"
+msgstr ""
+
+#: admin/pages/dir_setting.php:457
+msgid "Width 1500"
+msgstr ""
+
+#: admin/pages/dir_setting.php:465 admin/pages/dir_setting.php:479
+msgid "Width 1100"
+msgstr ""
+
+#: admin/pages/dir_setting.php:472
+msgid "Width 768"
+msgstr ""
+
+#: admin/pages/dir_setting.php:486
+msgid "Width 375"
+msgstr ""
+
+#: admin/pages/dir_setting.php:502
+msgid "Single Page"
+msgstr "Page détails"
+
+#: admin/pages/dir_setting.php:511
+msgid "Top Slider"
+msgstr "Diaporama"
+
+#: admin/pages/dir_setting.php:514
+msgid "Show Top slider"
+msgstr "Afficher le diaporama"
+
+#: admin/pages/dir_setting.php:519
+msgid "Hide Top Slider"
+msgstr "Masquer le diaporama"
+
+#: admin/pages/dir_setting.php:530
+#, fuzzy
+msgid "Page layout"
+msgstr "Formule d'adhésion"
+
+#: admin/pages/dir_setting.php:534
+msgid "Two Columns"
+msgstr ""
+
+#: admin/pages/dir_setting.php:540
+msgid "One Column"
+msgstr ""
+
+#: admin/pages/dir_setting.php:547
+#, fuzzy
+msgid "Feature Image-Top Right"
+msgstr "Image mise en avant"
+
+#: admin/pages/dir_setting.php:559
+msgid "Top 4 Icons Show/hide"
+msgstr ""
+
+#: admin/pages/dir_setting.php:562
+#, fuzzy
+msgid "Show Top Icons"
+msgstr "Afficher le diaporama"
+
+#: admin/pages/dir_setting.php:567
+#, fuzzy
+msgid "Hide Top Icons"
+msgstr "Masquer le coupon"
+
+#: admin/pages/dir_setting.php:573
+msgid "Top 4 Icons"
+msgstr ""
+
+#: admin/pages/dir_setting.php:580 admin/pages/dir_setting.php:1016
+#: admin/pages/package_all.php:167 template/property/archive-top-search.php:31
+#: template/property/single-property.php:240
+#: template/property/single-property.php:388
+msgid "Type"
+msgstr "Type"
+
+#: admin/pages/dir_setting.php:588
+#, fuzzy
+msgid "Bedroom"
+msgstr "Chambres"
+
+#: admin/pages/dir_setting.php:595
+#, fuzzy
+msgid "Bathroom"
+msgstr "Salles de bain"
+
+#: admin/pages/dir_setting.php:615
+msgid "Top Right Price Header"
+msgstr ""
+
+#: admin/pages/dir_setting.php:618
+#, fuzzy
+msgid "Show Top Right Price header"
+msgstr "Afficher le diaporama"
+
+#: admin/pages/dir_setting.php:623
+#, fuzzy
+msgid "Hide Top Right Price header"
+msgstr "Masquer le diaporama"
+
+#: admin/pages/dir_setting.php:636 admin/pages/metabox_full_data.php:408
+#: template/private-profile/profile-edit-post-1.php:513
+#: template/private-profile/profile-new-post-1.php:627
+#: template/property/single-property.php:643
+msgid "Public Facilities"
+msgstr "Equipements publics"
+
+#: admin/pages/dir_setting.php:639
+#, fuzzy
+msgid "Show Public Facilities"
+msgstr "Equipements publics"
+
+#: admin/pages/dir_setting.php:644
+#, fuzzy
+msgid "Hide Public Facilities"
+msgstr "Equipements publics"
+
+#: admin/pages/dir_setting.php:655 template/property/single-property.php:343
+msgid "Details"
+msgstr "Détails"
+
+#: admin/pages/dir_setting.php:658
+#, fuzzy
+msgid "Show Details"
+msgstr "Détails"
+
+#: admin/pages/dir_setting.php:663
+#, fuzzy
+msgid "Hide Details"
+msgstr "Détails"
+
+#: admin/pages/dir_setting.php:676
+msgid "Map"
+msgstr "Carte"
+
+#: admin/pages/dir_setting.php:679
+msgid "Show Listing Map"
+msgstr "Affiche la carte "
+
+#: admin/pages/dir_setting.php:684
+msgid "Hide Listing Map"
+msgstr "Masquer la carte "
+
+#: admin/pages/dir_setting.php:695 template/property/single-property.php:742
+msgid "Video"
+msgstr "Vidéo"
+
+#: admin/pages/dir_setting.php:698
+msgid "Show Listing Video"
+msgstr "Afficher l'option vidéo"
+
+#: admin/pages/dir_setting.php:703
+msgid "Hide Listing Video"
+msgstr "Masquer l'option vidéo "
+
+#: admin/pages/dir_setting.php:710
+msgid "Listing Claim"
+msgstr "Liste de revendication"
+
+#: admin/pages/dir_setting.php:714
+msgid "Show Listing Claim"
+msgstr "Affiche la liste de revendication"
+
+#: admin/pages/dir_setting.php:719
+msgid "Hide Listing Claim"
+msgstr "Masquer la liste de revendication"
+
+#: admin/pages/dir_setting.php:733
+msgid "Show Features"
+msgstr "Afficher les caractéristiques"
+
+#: admin/pages/dir_setting.php:738
+msgid "Hide Features"
+msgstr "Masquer les caractéristiques"
+
+#: admin/pages/dir_setting.php:747 admin/pages/metabox_full_data.php:477
+#: template/private-profile/profile-edit-post-1.php:668
+#: template/private-profile/profile-new-post-1.php:680
+#: template/property/single-property.php:475
+#: template/property/single-property.php:980
+msgid "Contact Info"
+msgstr "Informations du contact"
+
+#: admin/pages/dir_setting.php:750
+msgid "Show contact info"
+msgstr "Afficher les informations du contact"
+
+#: admin/pages/dir_setting.php:755
+msgid "Hide contact info"
+msgstr "Masquer les informations du contact"
+
+#: admin/pages/dir_setting.php:765
+msgid "Contact Form"
+msgstr "Formulaire de contact"
+
+#: admin/pages/dir_setting.php:768
+msgid "Show contact Form"
+msgstr "Afficher le formulaire de contact"
+
+#: admin/pages/dir_setting.php:773
+msgid "Hide contact Form"
+msgstr "Masquer le formulaire de contact"
+
+#: admin/pages/dir_setting.php:782
+msgid "Contact Form Type"
+msgstr "Type de formulaire de contact"
+
+#: admin/pages/dir_setting.php:785
+msgid "Show Form"
+msgstr "Afficher le formulaire"
+
+#: admin/pages/dir_setting.php:790
+msgid "Popup"
+msgstr "Popup"
+
+#: admin/pages/dir_setting.php:800 template/property/single-property.php:1098
+#: template/property/single-property.php:1196
+msgid "Agent Info"
+msgstr "Informations de l'agent"
+
+#: admin/pages/dir_setting.php:803
+msgid "Show Agent info"
+msgstr "Afficher les informations de l'agent"
+
+#: admin/pages/dir_setting.php:808
+msgid "Hide Agent info"
+msgstr "Masquer les informations de l'agent"
+
+#: admin/pages/dir_setting.php:820
+msgid "Share Listing"
+msgstr "Partage du listing"
+
+#: admin/pages/dir_setting.php:823
+msgid "Show Share listing"
+msgstr "Afficher le partage du listing"
+
+#: admin/pages/dir_setting.php:828
+msgid "Hide Share Listing"
+msgstr "Masquer le partage du listing"
+
+#: admin/pages/dir_setting.php:838 template/property/single-property.php:848
+msgid "Similar Properties"
+msgstr "Biens similaires"
+
+#: admin/pages/dir_setting.php:841
+msgid "Show similar properties"
+msgstr "Afficher les biens similaires"
+
+#: admin/pages/dir_setting.php:846
+msgid "Hide similar properties"
+msgstr "Masquer les biens similaires"
+
+#: admin/pages/dir_setting.php:855 template/property/single-property.php:806
+msgid "Loan Calculator"
+msgstr ""
+
+#: admin/pages/dir_setting.php:858
+#, fuzzy
+msgid "Show Loan Calculator"
+msgstr "Afficher le formulaire de contact"
+
+#: admin/pages/dir_setting.php:863
+#, fuzzy
+msgid "Hide Loan Calculator"
+msgstr "Masquer le formulaire de contact"
+
+#: admin/pages/dir_setting.php:872
+#, fuzzy
+msgid "Search Bar [Grid View]"
+msgstr "Barre de recherche"
+
+#: admin/pages/dir_setting.php:881 template/property/archive-top-search.php:11
+#: template/property/property-search.php:38
+#: template/property/property-search.php:41
+msgid "Keyword"
+msgstr "Mot-clé"
+
+#: admin/pages/dir_setting.php:929 admin/pages/dir_setting.php:1102
+msgid "Tags"
+msgstr ""
+
+#: admin/pages/dir_setting.php:950
+#: template/property/archive-property-style-2.php:570
+#, fuzzy
+msgid "Category"
+msgstr "Sous-Catégorie"
+
+#: admin/pages/dir_setting.php:995 template/property/property-search.php:152
+#: template/property/property-search.php:155
+msgid "Min Price"
+msgstr "Prix min"
+
+#: admin/pages/dir_setting.php:1037
+#: template/property/archive-top-search.php:231
+#: template/property/property-search.php:140
+#: template/property/property-search.php:143
+msgid "Min Beds"
+msgstr "Min chambre(s)"
+
+#: admin/pages/dir_setting.php:1058
+#: template/property/archive-top-search.php:242
+#: template/property/property-search.php:146
+#: template/property/property-search.php:149
+msgid "Min Baths"
+msgstr "Min salle(s) de bain"
+
+#: admin/pages/dir_setting.php:1079
+#, fuzzy
+msgid "Min Area"
+msgstr "Prix min"
+
+#: admin/pages/dir_setting.php:1094
+msgid "Other Settings"
+msgstr "Autres paramètres"
+
+#: admin/pages/dir_setting.php:1120
+msgid "Google Map API Key"
+msgstr ""
+
+#: admin/pages/dir_setting.php:1136
+msgid "Map Zoom"
+msgstr "Zoom de la carte"
+
+#: admin/pages/dir_setting.php:1149
+msgid "20 is more Zoom, 1 is less zoom"
+msgstr "Minimum 1, maximum 20"
+
+#: admin/pages/dir_setting.php:1157 admin/pages/settings.php:631
+msgid "Cron Job URL"
+msgstr "URL de la tâche CRON"
+
+#: admin/pages/map_marker.php:26
+msgid "Category Image / Map Marker"
+msgstr "Catégorie d'mage / Marqueur de la carte"
+
+#: admin/pages/map_marker.php:26
+#, fuzzy
+msgid "Create New Caterory"
+msgstr "Date de création"
+
+#: admin/pages/map_marker.php:38
+msgid "Category Main"
+msgstr "Catégorie principale"
+
+#: admin/pages/map_marker.php:39
+msgid "Sub Category"
+msgstr "Sous-Catégorie"
+
+#: admin/pages/map_marker.php:40
+msgid "Map Marker"
+msgstr "Marqueur de la carte"
+
+#: admin/pages/map_marker.php:41
+msgid "Category Image"
+msgstr "Catégorie d'image"
+
+#: admin/pages/metabox.php:21
+msgid "User ID :"
+msgstr "ID utilisateur :"
+
+#: admin/pages/metabox.php:39
+msgid "Approve"
+msgstr "﻿Approuver"
+
+#: admin/pages/metabox.php:54
+msgid "Featured (display on top)"
+msgstr "Mise en avant (affiché en premier)"
+
+#: admin/pages/metabox.php:56
+msgid "Not Featured"
+msgstr "Pas de mise en avant"
+
+#: admin/pages/metabox_full_data.php:25
+#: template/private-profile/profile-edit-post-1.php:101
+#: template/private-profile/profile-new-post-1.php:77
+msgid "Image Gallery"
+msgstr "Galerie d'images"
+
+#: admin/pages/metabox_full_data.php:26
+#: template/private-profile/profile-edit-post-1.php:102
+#: template/private-profile/profile-new-post-1.php:78
+msgid "Add Images"
+msgstr "Ajouter des images"
+
+#: admin/pages/metabox_full_data.php:56
+#: template/private-profile/profile-edit-post-1.php:141
+#: template/private-profile/profile-new-post-1.php:105
+#: template/property/property-search.php:129
+msgid "Property Status"
+msgstr "Statut de la propriété"
+
+#: admin/pages/metabox_full_data.php:79
+#: template/private-profile/profile-edit-post-1.php:225
+#: template/private-profile/profile-new-post-1.php:187
+#: template/private-profile/profile-setting-1.php:43
+msgid "Address"
+msgstr "Adresse"
+
+#: admin/pages/metabox_full_data.php:81
+#, fuzzy
+msgid "Enter address here"
+msgstr "Entrez l'adresse ici"
+
+#: admin/pages/metabox_full_data.php:87
+#: template/private-profile/profile-edit-post-1.php:234
+#: template/private-profile/profile-new-post-1.php:196
+msgid "Local Area"
+msgstr ""
+
+#: admin/pages/metabox_full_data.php:89
+#: template/private-profile/profile-edit-post-1.php:236
+#: template/private-profile/profile-new-post-1.php:198
+#, fuzzy
+msgid "Enter area here"
+msgstr "Entrez la ville ici"
+
+#: admin/pages/metabox_full_data.php:96
+msgid "Enter City Here"
+msgstr "Entrez la ville ici"
+
+#: admin/pages/metabox_full_data.php:101
+msgid "Post Code"
+msgstr "Code postal"
+
+#: admin/pages/metabox_full_data.php:103
+msgid "Enter postcode Here"
+msgstr "Entrez le code postal ici"
+
+#: admin/pages/metabox_full_data.php:109
+#: template/private-profile/profile-edit-post-1.php:251
+#: template/private-profile/profile-new-post-1.php:213
+msgid "State"
+msgstr "Région / Etat"
+
+#: admin/pages/metabox_full_data.php:111
+msgid "Enter state Here"
+msgstr "﻿Entrez la région ou l'état ici"
+
+#: admin/pages/metabox_full_data.php:115
+#: template/private-profile/profile-edit-post-1.php:255
+#: template/private-profile/profile-new-post-1.php:217
+msgid "Country"
+msgstr "Pays"
+
+#: admin/pages/metabox_full_data.php:117
+msgid "Enter country Here"
+msgstr "Entrez le pays ici"
+
+#: admin/pages/metabox_full_data.php:121
+#: template/private-profile/profile-edit-post-1.php:261
+#: template/private-profile/profile-new-post-1.php:223
+msgid "Latitude"
+msgstr "Latitude"
+
+#: admin/pages/metabox_full_data.php:123
+msgid "Enter latitude Here"
+msgstr "Entrez la latitude ici"
+
+#: admin/pages/metabox_full_data.php:127
+#: template/private-profile/profile-edit-post-1.php:265
+#: template/private-profile/profile-new-post-1.php:227
+msgid "Longitude"
+msgstr "Longitude"
+
+#: admin/pages/metabox_full_data.php:129
+msgid "Enter longitude Here"
+msgstr "Entrez la longitude ici"
+
+#: admin/pages/metabox_full_data.php:142
+#: template/private-profile/profile-edit-post-1.php:287
+#: template/private-profile/profile-new-post-1.php:371
+msgid "Property Detail"
+msgstr "Détails de la propriété"
+
+#: admin/pages/metabox_full_data.php:147 admin/pages/metabox_full_data.php:231
+#: admin/pages/metabox_full_data.php:297 admin/pages/metabox_full_data.php:413
+#: admin/pages/metabox_full_data.php:482 admin/pages/metabox_full_data.php:626
+#: template/private-profile/profile-edit-post-1.php:292
+#: template/private-profile/profile-edit-post-1.php:357
+#: template/private-profile/profile-edit-post-1.php:419
+#: template/private-profile/profile-edit-post-1.php:518
+#: template/private-profile/profile-edit-post-1.php:589
+#: template/private-profile/profile-edit-post-1.php:673
+#: template/private-profile/profile-edit-post-1.php:798
+#: template/private-profile/profile-new-post-1.php:376
+#: template/private-profile/profile-new-post-1.php:449
+#: template/private-profile/profile-new-post-1.php:507
+#: template/private-profile/profile-new-post-1.php:558
+#: template/private-profile/profile-new-post-1.php:632
+#: template/private-profile/profile-new-post-1.php:685
+#: template/private-profile/profile-new-post-1.php:814
+msgid "[ Edit ]"
+msgstr "[ Editer ]"
+
+#: admin/pages/metabox_full_data.php:154
+#: template/private-profile/profile-edit-post-1.php:300
+#: template/private-profile/profile-new-post-1.php:383
+#: template/property/single-property.php:254
+msgid "Bedrooms"
+msgstr "Chambres"
+
+#: admin/pages/metabox_full_data.php:156
+#: template/private-profile/profile-new-post-1.php:385
+msgid "Enter # Bedrooms"
+msgstr "Entrez le nombre de chambres"
+
+#: admin/pages/metabox_full_data.php:160
+#: template/private-profile/profile-edit-post-1.php:304
+#: template/private-profile/profile-new-post-1.php:389
+#: template/property/single-property.php:278
+#: template/property/single-property.php:419
+msgid "Bathrooms"
+msgstr "Salles de bain"
+
+#: admin/pages/metabox_full_data.php:163
+#: template/private-profile/profile-new-post-1.php:391
+msgid "Enter # Bathrooms"
+msgstr "Entrer le nombre de salles de bains"
+
+#: admin/pages/metabox_full_data.php:167
+#: template/private-profile/profile-edit-post-1.php:310
+#: template/private-profile/profile-new-post-1.php:395
+#: template/property/single-property.php:429
+msgid "Guest Room"
+msgstr "Chambres"
+
+#: admin/pages/metabox_full_data.php:170
+#: template/private-profile/profile-new-post-1.php:397
+msgid "Enter # guest room"
+msgstr "Entrez le nombre de chambres"
+
+#: admin/pages/metabox_full_data.php:174
+#: template/private-profile/profile-edit-post-1.php:314
+#: template/private-profile/profile-new-post-1.php:401
+#: template/property/single-property.php:439
+msgid "Garages"
+msgstr "Garage(s)"
+
+#: admin/pages/metabox_full_data.php:177
+#: template/private-profile/profile-new-post-1.php:403
+msgid "Enter # Garages"
+msgstr "Entrez le nombre de garages"
+
+#: admin/pages/metabox_full_data.php:181
+#: template/private-profile/profile-edit-post-1.php:320
+#: template/private-profile/profile-edit-post-1.php:321
+#: template/private-profile/profile-new-post-1.php:407
+msgid "Sale OR Rent Price"
+msgstr "Prix de vente OU de location"
+
+#: admin/pages/metabox_full_data.php:184
+#: template/private-profile/profile-new-post-1.php:409
+msgid "Enter Sale OR Rent Price"
+msgstr "Entrez le prix de vente ou de location"
+
+#: admin/pages/metabox_full_data.php:188
+#: template/private-profile/profile-edit-post-1.php:324
+#: template/private-profile/profile-new-post-1.php:413
+msgid "Price Postfix Text"
+msgstr "Monnaie"
+
+#: admin/pages/metabox_full_data.php:191
+#: template/private-profile/profile-new-post-1.php:415
+msgid "Enter Price Postfix Text e.g. $"
+msgstr "Entrez la monnaie,  EUR par exemple"
+
+#: admin/pages/metabox_full_data.php:195
+#: template/private-profile/profile-edit-post-1.php:330
+#: template/private-profile/profile-new-post-1.php:419
+#, fuzzy
+msgid "Rent Period"
+msgstr "Période essai"
+
+#: admin/pages/metabox_full_data.php:198
+#: template/private-profile/profile-edit-post-1.php:331
+#: template/private-profile/profile-new-post-1.php:421
+msgid "day, week, Month"
+msgstr ""
+
+#: admin/pages/metabox_full_data.php:206
+#: template/private-profile/profile-new-post-1.php:427
+msgid "Enter Area e.g. 2000"
+msgstr "Entrez la superficie (nombres uniquement)"
+
+#: admin/pages/metabox_full_data.php:210
+#: template/private-profile/profile-edit-post-1.php:340
+#: template/private-profile/profile-new-post-1.php:431
+msgid "Area Postfix Text"
+msgstr "Unité de surface"
+
+#: admin/pages/metabox_full_data.php:213
+#: template/private-profile/profile-new-post-1.php:433
+msgid "Enter Area Postfix Text e.g. ft"
+msgstr "Entrez l'unité de surface, m² par exemple"
+
+#: admin/pages/metabox_full_data.php:226
+#: template/private-profile/profile-edit-post-1.php:352
+#: template/private-profile/profile-new-post-1.php:444
+msgid "Additional Info"
+msgstr "Informations complémentaires"
+
+#: admin/pages/metabox_full_data.php:276
+#: template/private-profile/profile-new-post-1.php:489
+#, fuzzy
+msgid "Enter "
+msgstr "Saisissez le titre"
+
+#: admin/pages/metabox_full_data.php:292 admin/pages/metabox_full_data.php:332
+#: admin/pages/metabox_full_data.php:373 admin/pages/package_create.php:305
+#: admin/pages/package_update.php:297
+#: template/private-profile/profile-edit-post-1.php:414
+#: template/private-profile/profile-edit-post-1.php:449
+#: template/private-profile/profile-edit-post-1.php:484
+#: template/private-profile/profile-new-post-1.php:502
+#: template/private-profile/profile-new-post-1.php:526
+msgid "Floor Plan Image"
+msgstr "Plan(s) de ou des étages"
+
+#: admin/pages/metabox_full_data.php:318
+#: template/private-profile/profile-edit-post-1.php:439
+msgid "Floor Plan"
+msgstr "Plan(s)"
+
+#: admin/pages/metabox_full_data.php:325 admin/pages/metabox_full_data.php:366
+#: template/private-profile/profile-edit-post-1.php:443
+#: template/private-profile/profile-edit-post-1.php:478
+#: template/private-profile/profile-new-post-1.php:520
+msgid "Floor Plan Description"
+msgstr "Description du plan de l'étage"
+
+#: admin/pages/metabox_full_data.php:328
+#: template/private-profile/profile-edit-post-1.php:445
+msgid "Enter Plan Description"
+msgstr "Entrez la description du plan de l'étage"
+
+#: admin/pages/metabox_full_data.php:369
+#: template/private-profile/profile-edit-post-1.php:480
+#: template/private-profile/profile-new-post-1.php:522
+msgid "Enter Floor Plan Description"
+msgstr "Entrez la description du plan de l'étage"
+
+#: admin/pages/metabox_full_data.php:454
+#: template/private-profile/profile-edit-post-1.php:562
+#: template/private-profile/profile-new-post-1.php:658
+msgid "Enter KM or time"
+msgstr "Entrez distance ou temps d'accès"
+
+#: admin/pages/metabox_full_data.php:567
+#: template/private-profile/profile-edit-post-1.php:751
+#: template/private-profile/profile-new-post-1.php:763
+msgid " : Email, Phone, Website"
+msgstr " : E-mail, Téléphone, Site Web"
+
+#: admin/pages/metabox_full_data.php:570
+#: template/private-profile/profile-edit-post-1.php:754
+#: template/private-profile/profile-new-post-1.php:766
+msgid "New Info Input"
+msgstr "Nouveau champ d'information"
+
+#: admin/pages/metabox_full_data.php:577
+#: template/private-profile/profile-edit-post-1.php:760
+#: template/private-profile/profile-new-post-1.php:771
+#: template/property/contact-form.php:3
+#: template/property/single-property.php:493
+#: template/property/single-property.php:994
+#: template/property/single-property.php:1169
+#: template/property/single-property.php:1220
+msgid "Name"
+msgstr "Nom"
+
+#: admin/pages/metabox_full_data.php:579
+#: template/private-profile/profile-edit-post-1.php:761
+#: template/private-profile/profile-new-post-1.php:773
+#, fuzzy
+msgid "Enter name"
+msgstr "Saisissez le message."
+
+#: admin/pages/metabox_full_data.php:584
+#: template/private-profile/profile-edit-post-1.php:764
+#: template/private-profile/profile-new-post-1.php:777
+#: template/property/single-property.php:501
+#: template/property/single-property.php:532
+#: template/property/single-property.php:1002
+#: template/property/single-property.php:1037
+#: template/property/single-property.php:1228
+msgid "Phone"
+msgstr "Téléphone"
+
+#: admin/pages/metabox_full_data.php:586
+#: template/private-profile/profile-edit-post-1.php:765
+#: template/private-profile/profile-new-post-1.php:779
+msgid "Enter Phone Number"
+msgstr "Entrez le numéro de téléphone"
+
+#: admin/pages/metabox_full_data.php:590
+#: template/private-profile/profile-edit-post-1.php:770
+#: template/private-profile/profile-new-post-1.php:783
+msgid "Fax"
+msgstr "Fax"
+
+#: admin/pages/metabox_full_data.php:593
+#: template/private-profile/profile-edit-post-1.php:771
+#: template/private-profile/profile-new-post-1.php:785
+msgid "Enter Fax Number"
+msgstr "Entrez le numéro de fax"
+
+#: admin/pages/metabox_full_data.php:597 admin/pages/user_update.php:68
+#: template/private-profile/profile-edit-post-1.php:774
+#: template/private-profile/profile-new-post-1.php:789
+#: template/signup/wizard-style-2.php:160
+msgid "Email Address"
+msgstr "Adresse email"
+
+#: admin/pages/metabox_full_data.php:600
+#: template/private-profile/profile-edit-post-1.php:775
+#: template/private-profile/profile-login.php:581
+#: template/private-profile/profile-new-post-1.php:791
+msgid "Enter Email Address"
+msgstr "Entrez l'adresse e-mail"
+
+#: admin/pages/metabox_full_data.php:604
+#: template/private-profile/profile-edit-post-1.php:780
+#: template/private-profile/profile-new-post-1.php:795
+#: template/property/single-property.php:520
+#: template/property/single-property.php:545
+#: template/property/single-property.php:1025
+#: template/property/single-property.php:1054
+#: template/property/single-property.php:1242
+msgid "Web Site"
+msgstr "Site web"
+
+#: admin/pages/metabox_full_data.php:607
+#: template/private-profile/profile-edit-post-1.php:781
+#: template/private-profile/profile-new-post-1.php:797
+msgid "Enter Web Site"
+msgstr "Entrez l'adresse du site Web"
+
+#: admin/pages/metabox_full_data.php:621
+#: template/private-profile/profile-edit-post-1.php:793
+#: template/private-profile/profile-new-post-1.php:809
+msgid "Videos"
+msgstr "Vidéos"
+
+#: admin/pages/metabox_full_data.php:634
+#: template/private-profile/profile-edit-post-1.php:809
+#: template/private-profile/profile-new-post-1.php:825
+msgid "Youtube"
+msgstr "Youtube"
+
+#: admin/pages/metabox_full_data.php:637
+#: template/private-profile/profile-edit-post-1.php:811
+#: template/private-profile/profile-new-post-1.php:827
+msgid "Enter Youtube video ID, e.g : bU1QPtOZQZU "
+msgstr "Entrez l'ID de la vidéo Youtube, par exemple: bU1QPtOZQZU"
+
+#: admin/pages/metabox_full_data.php:641
+#: template/private-profile/profile-edit-post-1.php:815
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: admin/pages/metabox_full_data.php:644
+#: template/private-profile/profile-edit-post-1.php:817
+#: template/private-profile/profile-new-post-1.php:833
+msgid "Enter vimeo ID, e.g : 134173961"
+msgstr "Entrez l'ID de la vidéo vimeo, par exemple: 134173961"
+
+#: admin/pages/metabox_full_data.php:673
+#: template/private-profile/profile-edit-post-1.php:852
+#: template/private-profile/profile-new-post-1.php:868
+msgid "Set Feature Image"
+msgstr "Paramétrer l'image principale"
+
+#: admin/pages/metabox_full_data.php:674
+#: template/private-profile/profile-edit-post-1.php:853
+#: template/private-profile/profile-new-post-1.php:869
+msgid "Set plan Image"
+msgstr "Paramétrer les images de plans"
+
+#: admin/pages/metabox_full_data.php:675
+#: template/private-profile/profile-edit-post-1.php:854
+#: template/private-profile/profile-new-post-1.php:870
+msgid "Set Event Image"
+msgstr "Réglez l'image de l'événement"
+
+#: admin/pages/metabox_full_data.php:676
+#: template/private-profile/profile-edit-post-1.php:855
+#: template/private-profile/profile-new-post-1.php:871
+#: template/private-profile/profile-template-1.php:662
+msgid "Gallery Images"
+msgstr "Galerie d'images"
+
+#: admin/pages/new-message.php:2
+msgid "BCC to Admin all Message :"
+msgstr ""
+
+#: admin/pages/new-message.php:13
+msgid "Yes, Admin will  get all message."
+msgstr ""
+
+#: admin/pages/new-message.php:18
+msgid "New Message Subject : "
+msgstr ""
+
+#: admin/pages/new-message.php:25
+#, fuzzy
+msgid "Enter subject"
+msgstr "Saisissez le titre"
+
+#: admin/pages/new-message.php:30
+msgid "New Message Template :"
+msgstr ""
+
+#: admin/pages/package_all.php:135 admin/pages/package_all.php:274
+#, fuzzy
+msgid "Create A New Package"
+msgstr "Forfait actuel"
+
+#: admin/pages/package_all.php:146
+#, fuzzy
+msgid "All Package / Membership Level "
+msgstr "Formule adhésion"
+
+#: admin/pages/package_all.php:164 admin/pages/package_create.php:78
+#: admin/pages/package_update.php:72
+#: template/private-profile/iv_stripe_form_upgrade.php:22
+#: template/private-profile/profile-level-1.php:488
+#: template/signup/iv_stripe_form_2.php:18 template/signup/paypal_form_2.php:2
+msgid "Package Name"
+msgstr "Type annonce"
+
+#: admin/pages/package_all.php:166 admin/pages/profile-fields.php:39
+msgid "Link"
+msgstr "Lien"
+
+#: admin/pages/package_all.php:168 admin/pages/user_update.php:75
+#: template/private-profile/profile-level-1.php:412
+msgid "User Role"
+msgstr "Rôle utilisateur"
+
+#: admin/pages/package_all.php:169 admin/pages/payment-settings.php:43
+#: template/private-profile/profile-all-post-1.php:62
+#: template/private-profile/profile-edit-post-1.php:125
+#: template/private-profile/profile-new-post-1.php:89
+msgid "Status"
+msgstr "Statut"
+
+#: admin/pages/package_all.php:282
+msgid ""
+"User role \"Basic\" is created on the plugin activation. Paid exprired or "
+"unsuccessful payment user will set on the \"Basic\" user role."
+msgstr ""
+
+#: admin/pages/package_all.php:294
+#, fuzzy
+msgid "Package Page "
+msgstr "Type annonce"
+
+#: admin/pages/package_all.php:306
+msgid ""
+"Note: You can use other available pricing table. The package link URL will "
+"go on \"Sign UP \" button. "
+msgstr ""
+
+#: admin/pages/package_create.php:66 admin/pages/package_create.php:352
+msgid "Save Package"
+msgstr "Enregistrer le forfait"
+
+#: admin/pages/package_create.php:70
+msgid "Create Package / Membership Level"
+msgstr "Formule adhésion"
+
+#: admin/pages/package_create.php:84 admin/pages/package_update.php:78
+msgid "Package Feature List"
+msgstr "Liste des fonctionnalités paquet"
+
+#: admin/pages/package_create.php:87 admin/pages/package_update.php:81
+msgid "It will display on price list table"
+msgstr "Il s affiche sur le tableau de liste de prix"
+
+#: admin/pages/package_create.php:90 admin/pages/package_update.php:84
+msgid "Billing Details"
+msgstr "Détails de la facturation"
+
+#: admin/pages/package_create.php:93 admin/pages/package_update.php:87
+msgid "Initial Payment"
+msgstr "Paiement initial"
+
+#: admin/pages/package_create.php:96
+msgid "The initial amount collected at user registration."
+msgstr "Le montant initial perçu lors de inscription utilisateur."
+
+#: admin/pages/package_create.php:101 admin/pages/package_update.php:94
+msgid "Package Expire After"
+msgstr "Le paquet expirer après"
+
+#: admin/pages/package_create.php:136
+msgid ""
+"If select none then user package will expire after 19 years. Package Expire "
+"Option will not work on Recurring Subscription. \"Billing Cycle Limit\" will "
+"Work For Recurring Subscription."
+msgstr ""
+"Si aucun sélectionner alors le paquet utilisateur expirera au bout de 19 ans."
+" Option de forfait Expire ne fonctionnera pas sur abonnement récurrents. « "
+"Facturation Cycle limite » sera travail pour abonnement récurrents."
+
+#: admin/pages/package_create.php:143 admin/pages/package_update.php:138
+msgid "Recurring Subscription"
+msgstr "﻿Nouvel abonnement récurrent"
+
+#: admin/pages/package_create.php:146 admin/pages/package_update.php:141
+msgid "Enable Recurring Payment"
+msgstr "Autoriser le paiement récurrent par PayPal"
+
+#: admin/pages/package_create.php:162 admin/pages/package_update.php:156
+msgid ""
+"The plugin will create the Plan on Stripe account automatically. If you get "
+"any payment error then you need to create a Plan on your stripe "
+"account/dashboard( <a href=\"dashboard.stripe.com/subscriptions/products\" "
+"target=\"_blank\">dashboard.stripe.com/subscriptions/products </a> ) and add "
+"the name here."
+msgstr ""
+
+#: admin/pages/package_create.php:173 admin/pages/package_update.php:167
+msgid "Billing Amount"
+msgstr "Montant de facturation"
+
+#: admin/pages/package_create.php:177 admin/pages/package_update.php:171
+msgid "Per"
+msgstr "Par"
+
+#: admin/pages/package_create.php:191 admin/pages/package_update.php:186
+msgid "The \"Billing Amount\" will Collect at User Registration."
+msgstr ""
+"Le « montant de facturation » recueillera lors de inscription de utilisateur."
+
+#: admin/pages/package_create.php:196 admin/pages/package_update.php:191
+msgid "Billing Cycle Limit"
+msgstr "Cycle limite de facturation"
+
+#: admin/pages/package_create.php:219 admin/pages/package_update.php:212
+msgid "Trial"
+msgstr "Essai"
+
+#: admin/pages/package_create.php:222 admin/pages/package_update.php:215
+msgid "Enable Trial Period"
+msgstr "Activer la période d'essai"
+
+#: admin/pages/package_create.php:225
+msgid "\"Billing Amount\" will Collect After Trial Period. "
+msgstr "« Montant de la facture » sera recouvré après la période d’essai.."
+
+#: admin/pages/package_create.php:233 admin/pages/package_update.php:223
+msgid "Trial Amount"
+msgstr "Montant essai"
+
+#: admin/pages/package_create.php:236 admin/pages/package_update.php:226
+msgid ""
+"Amount to Bill for The Trial Period. Free is 0.[Stripe will not support this "
+"option ]"
+msgstr ""
+"Montant du projet de loi pour la période d'essai. Gratuit est 0. [Stripe ne "
+"soutiendra pas cette option]"
+
+#: admin/pages/package_create.php:241 admin/pages/package_update.php:231
+msgid "Trial Period"
+msgstr "Période essai"
+
+#: admin/pages/package_create.php:271
+msgid "After The Trial Period \"Billing Amount\"\tWill Be Billed."
+msgstr "Après la période essai \"facturation Montant\" seront facturés."
+
+#: admin/pages/package_create.php:279 admin/pages/package_update.php:269
+msgid "Access Control/Options"
+msgstr "Contrôle d'accès / Options"
+
+#: admin/pages/package_create.php:281 admin/pages/package_update.php:271
+msgid "Maximum Post/Property"
+msgstr "Maximale de Post / propriété"
+
+#: admin/pages/package_create.php:284 admin/pages/package_update.php:274
+msgid "Maximum # of post by this package. Blank is none."
+msgstr "Nombre maximal du post de ce paquet."
+
+#: admin/pages/package_create.php:288 admin/pages/package_update.php:278
+msgid "Property Visibility"
+msgstr "Visibilité de la propriété"
+
+#: admin/pages/package_create.php:291 admin/pages/package_update.php:281
+msgid "Property will hide after user subscription expire."
+msgstr "Nombre de jours, après quoi abonnement expire."
+
+#: admin/pages/package_create.php:296
+msgid "Property Deal/ Offer"
+msgstr "Transaction immobilière / offre"
+
+#: admin/pages/package_create.php:299
+msgid "Can Add Deal/ Offer."
+msgstr "Pouvez ajouter Deal / offre."
+
+#: admin/pages/package_create.php:308 admin/pages/package_update.php:300
+msgid "Can Add Floor Plan Image."
+msgstr "Pouvez ajouter des images de plan d'étage."
+
+#: admin/pages/package_create.php:313 admin/pages/package_update.php:316
+msgid "Property Videos"
+msgstr "Vidéos de propriété"
+
+#: admin/pages/package_create.php:316 admin/pages/package_update.php:319
+msgid "Can Add Videos."
+msgstr "Pouvez ajouter des vidéos."
+
+#: admin/pages/package_create.php:321 admin/pages/package_update.php:306
+msgid "Property Public Facilities"
+msgstr "Propriété des équipements publics"
+
+#: admin/pages/package_create.php:324 admin/pages/package_update.php:309
+msgid "Can Add Public Facilities."
+msgstr "Ajouter des équipements publics."
+
+#: admin/pages/package_create.php:330 admin/pages/package_update.php:324
+#, fuzzy
+msgid "Feature Listing "
+msgstr "Partage du listing"
+
+#: admin/pages/package_create.php:333
+#, fuzzy
+msgid "Will Add On Featured List (show on top)"
+msgstr "Va ajouter Sur Liste vedette"
+
+#: admin/pages/package_create.php:339 admin/pages/package_update.php:333
+msgid "Property VIP Badge"
+msgstr "Propriété - Badge VIP"
+
+#: admin/pages/package_create.php:342 admin/pages/package_update.php:336
+msgid "Will Add VIP Badge"
+msgstr "Va ajouter Badge VIP"
+
+#: admin/pages/package_update.php:62 admin/pages/package_update.php:346
+#, fuzzy
+msgid "Update Package"
+msgstr "Enregistrer le forfait"
+
+#: admin/pages/package_update.php:66
+#, fuzzy
+msgid "Update Package / Membership Level"
+msgstr "Formule adhésion"
+
+#: admin/pages/package_update.php:89
+#, fuzzy
+msgid "The Initial Amount Collected at User Registration."
+msgstr "Le montant initial perçu lors de inscription utilisateur."
+
+#: admin/pages/package_update.php:127
+#, fuzzy
+msgid ""
+"If select none then user  package will expire after 19 years. Package Expire "
+"Option will not work on Recurring Subscription. \"Billing Cycle Limit\" will "
+"Work For Recurring Subscription."
+msgstr ""
+"Si aucun sélectionner alors le paquet utilisateur expirera au bout de 19 ans."
+" Option de forfait Expire ne fonctionnera pas sur abonnement récurrents. « "
+"Facturation Cycle limite » sera travail pour abonnement récurrents."
+
+#: admin/pages/package_update.php:151
+msgid "Stripe Plan Name(not ID)"
+msgstr ""
+
+#: admin/pages/package_update.php:195
+msgid "Never"
+msgstr ""
+
+#: admin/pages/package_update.php:218
+#, fuzzy
+msgid "\"Billing Amount\" will Collect After Trial Period."
+msgstr "« Montant de la facture » sera recouvré après la période d’essai.."
+
+#: admin/pages/package_update.php:262
+#, fuzzy
+msgid "After The Trial Period \"Billing Amount\"\tWill Be Billed.\t"
+msgstr "Après la période essai \"facturation Montant\" seront facturés."
+
+#: admin/pages/package_update.php:288
+msgid "Deals/Offer"
+msgstr "Offre"
+
+#: admin/pages/package_update.php:291
+msgid "Can Add Property Deals/Offer."
+msgstr "Peut Ajouter transactions immobilières / Offre."
+
+#: admin/pages/package_update.php:327
+#, fuzzy
+msgid " Will Add On Featured List (show on top)"
+msgstr "Va ajouter Sur Liste vedette"
+
+#: admin/pages/payment-settings.php:27
+#, fuzzy
+msgid "Payment Gateways"
+msgstr "Etat du paiement"
+
+#: admin/pages/payment-settings.php:41
+#, fuzzy
+msgid "Gateways Name"
+msgstr "Ville"
+
+#: admin/pages/payment-settings.php:42
+msgid "Mode"
+msgstr ""
+
+#: admin/pages/payment-settings.php:52
+msgid "Paypal"
+msgstr ""
+
+#: admin/pages/payment-settings.php:57 admin/pages/payment-settings.php:68
+#, fuzzy
+msgid "Edit Setting"
+msgstr "Modifier l'annonce"
+
+#: admin/pages/paypal_update.php:156 admin/pages/stripe_update.php:155
+#, fuzzy
+msgid "Update Settings"
+msgstr "Autres paramètres"
+
+#: admin/pages/profile-fields.php:26
+msgid "Update Profile Setting"
+msgstr "Mise à jour paramètre de profil"
+
+#: admin/pages/profile-fields.php:32 admin/pages/settings.php:37
+msgid "My Account Menu"
+msgstr "Menu Mon Compte"
+
+#: admin/pages/profile-fields.php:36
+msgid "Menu Title / Label"
+msgstr "Menu Titre / Étiquette"
+
+#: admin/pages/profile-fields.php:51
+#: template/private-profile/profile-all-post-1.php:42
+#: template/private-profile/profile-template-1.php:478
+msgid "Listing Home"
+msgstr "Liste Accueil"
+
+#: admin/pages/profile-fields.php:73
+#: template/private-profile/profile-level-1.php:307
+#: template/private-profile/profile-template-1.php:493
+msgid "Membership Level"
+msgstr "Niveau adhésion"
+
+#: admin/pages/profile-fields.php:95
+#: template/private-profile/profile-template-1.php:509
+msgid "Account Settings"
+msgstr "Paramètres de Compte"
+
+#: admin/pages/profile-fields.php:117
+#: template/private-profile/profile-all-post-1.php:38
+#: template/private-profile/profile-template-1.php:525
+msgid "All Listing"
+msgstr "Toutes les annonces"
+
+#: admin/pages/profile-fields.php:139
+#: template/private-profile/profile-template-1.php:540
+msgid "New Listing"
+msgstr "Ajoutez une nouvelle annonce"
+
+#: admin/pages/profile-fields.php:161
+#: template/private-profile/my-favorites-1.php:43
+#: template/private-profile/profile-template-1.php:556
+msgid "My Favorites"
+msgstr "Mes favoris"
+
+#: admin/pages/profile-fields.php:183
+#: template/private-profile/interested-1.php:34
+#: template/private-profile/profile-template-1.php:571
+msgid "Who is Interested"
+msgstr "Qui est intéressé ?"
+
+#: admin/pages/profile-fields.php:221 admin/pages/profile-fields.php:236
+#: admin/pages/user_directory_admin.php:148
+#: template/private-profile/profile-all-post-1.php:132
+msgid "Delete"
+msgstr "Supprimer"
+
+#: admin/pages/reminder_email.php:4
+msgid "Reminder Email Subject :"
+msgstr ""
+
+#: admin/pages/reminder_email.php:18
+msgid "Reminder Email Tempalte :"
+msgstr ""
+
+#: admin/pages/reminder_email.php:36
+msgid "Send Email Before # Days :"
+msgstr ""
+
+#: admin/pages/settings.php:32
+#, fuzzy
+msgid "Import Data"
+msgstr "Importer au format CSV"
+
+#: admin/pages/settings.php:34
+#, fuzzy
+msgid "Listing Settings"
+msgstr "Paramétrage des annonces"
+
+#: admin/pages/settings.php:39
+msgid "Category Image/Marker"
+msgstr "Catégorie image / Marker"
+
+#: admin/pages/settings.php:42
+#, fuzzy
+msgid "Package"
+msgstr "Enregistrer le forfait"
+
+#: admin/pages/settings.php:43
+msgid "Page"
+msgstr "Page"
+
+#: admin/pages/settings.php:45 admin/pages/user_directory_admin.php:10
+msgid "User Setting"
+msgstr "Paramètres Utilisateur"
+
+#: admin/pages/settings.php:47
+msgid "Terms CheckBox/Coupon"
+msgstr ""
+
+#: admin/pages/settings.php:48 admin/pages/user_directory_admin.php:105
+#: template/private-profile/interested-1.php:60
+#: template/private-profile/interested-1.php:69
+#: template/property/archive-property-style-2.php:564
+#: template/property/contact-form.php:7
+#: template/property/single-property.php:509
+#: template/property/single-property.php:537
+#: template/property/single-property.php:1010
+#: template/property/single-property.php:1042
+#: template/property/single-property.php:1173
+#: template/property/single-property.php:1235
+#: admin/pages/importer/upload_main_big_csv.php:76
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/pages/settings.php:49
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: admin/pages/settings.php:51 admin/pages/settings.php:109
+msgid "Visibility Control"
+msgstr "Contrôle de visibilité"
+
+#: admin/pages/settings.php:128
+#, fuzzy
+msgid "Content Visibility Module"
+msgstr "Page de visibilité Module :"
+
+#: admin/pages/settings.php:131
+#, fuzzy
+msgid "Hide Content By Role Access"
+msgstr "Afficher la page d'accès par rôle"
+
+#: admin/pages/settings.php:136
+#: template/property/archive-property-style-1.php:275
+#: template/property/archive-property-style-1.php:301
+#: template/property/archive-property-style-1.php:312
+msgid "Show All"
+msgstr "Afficher Tout"
+
+#: admin/pages/settings.php:144
+msgid "Content Show By Roles"
+msgstr ""
+
+#: admin/pages/settings.php:148
+#, fuzzy
+msgid "Select which contents are available for each user role."
+msgstr ""
+"Sélectionnez les pages qui sont disponibles pour chaque rôle d'utilisateur."
+
+#: admin/pages/settings.php:172
+msgid "Check/Uncheck"
+msgstr "Cochez / décochez"
+
+#: admin/pages/settings.php:238
+msgid "Already logged In User Message"
+msgstr ""
+
+#: admin/pages/settings.php:254
+#, fuzzy
+msgid "Visitor Message"
+msgstr "Saisissez le message."
+
+#: admin/pages/settings.php:287
+msgid "User Registration Page Redirect:"
+msgstr ""
+
+#: admin/pages/settings.php:312
+#, fuzzy
+msgid "User My Account Page Redirect:"
+msgstr "Mon compte"
+
+#: admin/pages/settings.php:336
+msgid "User Public Profile Page Redirect:"
+msgstr ""
+
+#: admin/pages/settings.php:360
+msgid "Hide Admin Bar for All Users Except for Administrators:"
+msgstr ""
+
+#: admin/pages/settings.php:371 admin/pages/settings.php:440
+msgid "Hide"
+msgstr ""
+
+#: admin/pages/settings.php:397
+msgid "Terms CheckBox"
+msgstr ""
+
+#: admin/pages/settings.php:408
+#, fuzzy
+msgid "Dispaly"
+msgstr "Afficher libellé personnalisé"
+
+#: admin/pages/settings.php:429
+#, fuzzy
+msgid "Hide Coupon Buton"
+msgstr "Masquer le coupon"
+
+#: admin/pages/settings.php:502 admin/pages/settings.php:527
+#: admin/pages/settings.php:552 admin/pages/settings.php:578
+#: admin/pages/settings.php:603 admin/pages/settings.php:626
+#, fuzzy
+msgid "View"
+msgstr "Voir la page"
+
+#: admin/pages/settings.php:507
+#, fuzzy
+msgid "User Sign Up:"
+msgstr "Paramètres Utilisateur"
+
+#: admin/pages/settings.php:532
+#, fuzzy
+msgid "Signup Thanks"
+msgstr "Inscription / Connexion"
+
+#: admin/pages/settings.php:558
+#, fuzzy
+msgid "Login Page:"
+msgstr "Page détails"
+
+#: admin/pages/settings.php:583
+#, fuzzy
+msgid "User My Account"
+msgstr "Mon compte"
+
+#: admin/pages/settings.php:609
+#, fuzzy
+msgid "User Public Profile:"
+msgstr "Champs de profil utilisateur"
+
+#: admin/pages/settings.php:637
+msgid ""
+"Cron JOB Detail : Auto Bidding Renew update, Hide Listing( Package setting),"
+"Subscription Remainder email."
+msgstr ""
+
+#: admin/pages/settings.php:666
+#, fuzzy
+msgid "Update Email Setting"
+msgstr "Mise à jour paramètre de profil"
+
+#: admin/pages/settings.php:675
+msgid "Email Sender :"
+msgstr ""
+
+#: admin/pages/settings.php:694
+#, fuzzy
+msgid "Signup / Forget password Email"
+msgstr "Mot de passe oublié ?"
+
+#: admin/pages/settings.php:699
+#, fuzzy
+msgid "Email Subject"
+msgstr "Sujet"
+
+#: admin/pages/settings.php:711
+msgid "Email Tempalte "
+msgstr ""
+
+#: admin/pages/settings.php:728
+#, fuzzy
+msgid "Forget Subject"
+msgstr "Sujet"
+
+#: admin/pages/settings.php:740
+msgid "Forget Tempalte :"
+msgstr ""
+
+#: admin/pages/settings.php:757
+#, fuzzy
+msgid "Order Email"
+msgstr "E-mail"
+
+#: admin/pages/settings.php:762
+msgid "User Email Subject :"
+msgstr ""
+
+#: admin/pages/settings.php:773
+msgid "User Email Tempalte :"
+msgstr ""
+
+#: admin/pages/settings.php:791
+msgid "Admin Email Subject :"
+msgstr ""
+
+#: admin/pages/settings.php:802
+msgid "Admin Email Tempalte :"
+msgstr ""
+
+#: admin/pages/settings.php:818
+msgid "Reminder Email"
+msgstr ""
+
+#: admin/pages/settings.php:824
+#, fuzzy
+msgid "New Message Email"
+msgstr "Envoyer le message"
+
+#: admin/pages/settings.php:833
+msgid "Deal/Coupon Email: Listing Owner + Client"
+msgstr ""
+
+#: admin/pages/settings.php:854 admin/pages/settings.php:950
+#, fuzzy
+msgid "Update MailChimp Setting"
+msgstr "Mise à jour paramètre de profil"
+
+#: admin/pages/settings.php:880
+#, fuzzy
+msgid "MailChimp API Key :"
+msgstr "MailChimp"
+
+#: admin/pages/settings.php:902
+#, fuzzy
+msgid "Mailchimp List "
+msgstr "MailChimp"
+
+#: admin/pages/settings.php:942
+msgid "Signup user email address will go to the mailchimp list."
+msgstr ""
+
+#: admin/pages/stripe_update.php:54
+#, fuzzy
+msgid "Stripe Api Settings"
+msgstr "Autres paramètres"
+
+#: admin/pages/stripe_update.php:66
+msgid "Gateway Mode"
+msgstr ""
+
+#: admin/pages/stripe_update.php:70
+msgid "Test Mode"
+msgstr ""
+
+#: admin/pages/stripe_update.php:71
+msgid "Live Mode"
+msgstr ""
+
+#: admin/pages/stripe_update.php:79
+msgid "Live Secret"
+msgstr ""
+
+#: admin/pages/stripe_update.php:86
+#, fuzzy
+msgid "Live Publishable"
+msgstr "Publication"
+
+#: admin/pages/stripe_update.php:96
+msgid "Test Secret"
+msgstr ""
+
+#: admin/pages/stripe_update.php:102
+#, fuzzy
+msgid "Test Publishable"
+msgstr "Publication"
+
+#: admin/pages/stripe_update.php:109
+msgid "Stripe API Currency Code"
+msgstr ""
+
+#: admin/pages/stripe_update.php:161
+msgid ""
+"Stripe Test to Live mode: When turned from Test to Live did not have any of "
+"the plans you have created on Stripe.\n"
+"\t\t\t\t\t\t\t\tWhen you will switch from Stripe to Paypal and PayPal to "
+"Stripe again, the connection between  the plugin and Stripe was corrected "
+"and thus the plans were re-created in the Stripe account."
+msgstr ""
+
+#: admin/pages/user_directory_admin.php:103
+msgid "Create Date"
+msgstr "Date de création"
+
+#: admin/pages/user_directory_admin.php:104 admin/pages/user_update.php:61
+#: template/private-profile/interested-1.php:59
+#: template/private-profile/interested-1.php:68
+#: template/signup/wizard-style-2.php:153
+msgid "User Name"
+msgstr "Nom d’utilisateur"
+
+#: admin/pages/user_directory_admin.php:106 admin/pages/user_update.php:142
+msgid "Expiry Date"
+msgstr "Date expiration"
+
+#: admin/pages/user_directory_admin.php:107 admin/pages/user_update.php:128
+#: template/private-profile/profile-level-1.php:402
+msgid "Payment Status"
+msgstr "Etat du paiement"
+
+#: admin/pages/user_directory_admin.php:108
+msgid "Role"
+msgstr "Rôle"
+
+#: admin/pages/user_directory_admin.php:147
+#: template/private-profile/profile-all-post-1.php:131
+msgid "Edit"
+msgstr "Editer"
+
+#: admin/pages/user_directory_admin.php:173
+#: template/user-directory/directory-template-2.php:414
+#, fuzzy
+msgid "&laquo; Previous"
+msgstr "Précédent"
+
+#: admin/pages/user_directory_admin.php:174
+#: template/user-directory/directory-template-2.php:415
+msgid "Next &raquo;"
+msgstr ""
+
+#: admin/pages/user_update.php:44
+#, fuzzy
+msgid "User Settings: Edit"
+msgstr "Paramètres Utilisateur"
+
+#: admin/pages/user_update.php:100
+#, fuzzy
+msgid "User Package"
+msgstr "Enregistrer le forfait"
+
+#: admin/pages/user_update.php:134
+msgid "Success"
+msgstr ""
+
+#: admin/pages/user_update.php:135
+#, fuzzy
+msgid "Pendinge"
+msgstr "En attente de modération"
+
+#: admin/pages/user_update.php:157
+#, fuzzy
+msgid "Update User"
+msgstr "Mettre  jour"
+
+#: template/private-profile/contact_popup.php:13
+msgid "Message Board"
+msgstr "Tableau de messages"
+
+#: template/private-profile/contact_popup.php:19
+#: template/property/reviews.php:214
+msgid "Subject"
+msgstr "Sujet"
+
+#: template/private-profile/contact_popup.php:23
+msgid "Enter Message"
+msgstr "Saisissez le message."
+
+#: template/private-profile/contact_popup.php:29
+#: template/private-profile/iv_stripe_form_upgrade.php:146
+#: template/private-profile/profile-login.php:567
+#: template/property/reviews.php:251 template/signup/iv_stripe_form_2.php:171
+#: template/signup/paypal_form_2.php:106 template/signup/paypal_form_2.php:111
+msgid "Submit"
+msgstr "Soumettre"
+
+#: template/private-profile/interested-1.php:61
+#: template/private-profile/interested-1.php:70
+#, fuzzy
+msgid "Listing"
+msgstr "Toutes les annonces"
+
+#: template/private-profile/interested-1.php:62
+#: template/private-profile/interested-1.php:71
+#: template/private-profile/interested-1.php:123
+#: template/property/single-property.php:1134
+msgid "Contact"
+msgstr "Contact"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:66
+#: template/signup/iv_stripe_form_2.php:91
+msgid "Card Number"
+msgstr "Numéro Carte"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:72
+msgid "Card CVV"
+msgstr "﻿Code CVV"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:75
+msgid "CVV number is not correct"
+msgstr ""
+
+#: template/private-profile/iv_stripe_form_upgrade.php:75
+#, fuzzy
+msgid "Enter card CVC"
+msgstr "Saisissez le titre"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:79
+#: template/signup/iv_stripe_form_2.php:104
+msgid "Expiration (MM/YYYY)"
+msgstr "Date expiration (mm/aaaa)"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:83
+#, fuzzy
+msgid "01"
+msgstr "1"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:84
+#, fuzzy
+msgid "02"
+msgstr "2"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:85
+#, fuzzy
+msgid "03"
+msgstr "3"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:86
+#, fuzzy
+msgid "04"
+msgstr "4"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:87
+#, fuzzy
+msgid "05"
+msgstr "5"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:88
+msgid "06"
+msgstr ""
+
+#: template/private-profile/iv_stripe_form_upgrade.php:89
+msgid "07"
+msgstr ""
+
+#: template/private-profile/iv_stripe_form_upgrade.php:90
+msgid "08"
+msgstr ""
+
+#: template/private-profile/iv_stripe_form_upgrade.php:91
+msgid "09"
+msgstr ""
+
+#: template/private-profile/iv_stripe_form_upgrade.php:92
+#, fuzzy
+msgid "10"
+msgstr "1"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:93
+#, fuzzy
+msgid "11"
+msgstr "1"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:94
+#, fuzzy
+msgid "12"
+msgstr "2"
+
+#: template/private-profile/iv_stripe_form_upgrade.php:125
+#: template/signup/iv_stripe_form_2.php:150
+#: template/signup/paypal_form_2.php:82
+msgid "You have to agree to our terms"
+msgstr ""
+
+#: template/private-profile/my-favorites-1.php:92
+msgid "Address :"
+msgstr "Adresse :"
+
+#: template/private-profile/my-favorites-1.php:111
+msgid "Note"
+msgstr ""
+
+#: template/private-profile/my-favorites-1.php:127
+msgid "No data available"
+msgstr "Aucune donnée disponible"
+
+#: template/private-profile/profile-all-post-1.php:41
+#: template/private-profile/profile-new-post-1.php:13
+msgid "Add New Listing"
+msgstr "Ajoutez une nouvelle annonce"
+
+#: template/private-profile/profile-all-post-1.php:60
+msgid "ID"
+msgstr ""
+
+#: template/private-profile/profile-all-post-1.php:61
+#: template/private-profile/profile-edit-post-1.php:61
+#: template/private-profile/profile-new-post-1.php:47
+#: template/property/archive-property-style-1.php:248
+#: template/property/archive-property-style-2.php:165
+#: template/property/archive-property-style-2.php:569
+msgid "Title"
+msgstr "Titre"
+
+#: template/private-profile/profile-all-post-1.php:63
+msgid "Expire"
+msgstr "Expiration"
+
+#: template/private-profile/profile-all-post-1.php:64
+msgid "Actions"
+msgstr "Actions"
+
+#: template/private-profile/profile-all-post-1.php:108
+#, fuzzy
+msgid "publish"
+msgstr "Publication"
+
+#: template/private-profile/profile-all-post-1.php:109
+#, fuzzy
+msgid "draft"
+msgstr "Brouillon"
+
+#: template/private-profile/profile-all-post-1.php:110
+msgid "pending"
+msgstr ""
+
+#: template/private-profile/profile-all-post-1.php:164
+msgid "Processing"
+msgstr ""
+
+#: template/private-profile/profile-all-post-1.php:165
+#: template/property/archive-property-style-2.php:69
+#: template/property/archive-property-style-2.php:81
+#: template/property/archive-top-search.php:102
+#: template/property/property-search.php:164
+#: template/property/slider-search.php:127
+msgid "Search"
+msgstr "Recherche"
+
+#: template/private-profile/profile-all-post-1.php:166
+msgid "Display _MENU_ records per page"
+msgstr ""
+
+#: template/private-profile/profile-all-post-1.php:167
+msgid "Nothing found - sorry"
+msgstr "Non trouvé dans la corbeille"
+
+#: template/private-profile/profile-all-post-1.php:168
+msgid "Showing page _PAGE_ of _PAGES_"
+msgstr "Showing page "
+
+#: template/private-profile/profile-all-post-1.php:169
+msgid "No records available"
+msgstr "Aucune donnée disponible"
+
+#: template/private-profile/profile-all-post-1.php:170
+msgid "(filtered from _MAX_ total records)"
+msgstr ""
+
+#: template/private-profile/profile-all-post-1.php:172
+msgid "First"
+msgstr "Premier"
+
+#: template/private-profile/profile-all-post-1.php:173
+msgid "Last"
+msgstr "Dernier"
+
+#: template/private-profile/profile-all-post-1.php:174
+#: template/property/single-property.php:941
+msgid "Next"
+msgstr "Suivant"
+
+#: template/private-profile/profile-all-post-1.php:175
+#: template/property/single-property.php:937
+msgid "Previous"
+msgstr "Précédent"
+
+#: template/private-profile/profile-edit-post-1.php:15
+msgid "Edit Listing"
+msgstr "Modifier l'annonce"
+
+#: template/private-profile/profile-edit-post-1.php:49
+msgid "Please "
+msgstr "SVP "
+
+#: template/private-profile/profile-edit-post-1.php:50
+msgid "Login or upgrade "
+msgstr "Vous devez vous identifier ou mettre à niveau"
+
+#: template/private-profile/profile-edit-post-1.php:51
+msgid "To Edit The Post."
+msgstr "Editer l'annonce"
+
+#: template/private-profile/profile-edit-post-1.php:63
+#: template/private-profile/profile-new-post-1.php:49
+msgid "Enter Title Here"
+msgstr "﻿Entrez votre titre ici."
+
+#: template/private-profile/profile-edit-post-1.php:80
+#: template/private-profile/profile-new-post-1.php:65
+msgid "Feature Image"
+msgstr "Image mise en avant"
+
+#: template/private-profile/profile-edit-post-1.php:97
+#: template/private-profile/profile-new-post-1.php:73
+msgid "Add"
+msgstr "Ajouter"
+
+#: template/private-profile/profile-edit-post-1.php:116
+msgid "Remove"
+msgstr ""
+
+#: template/private-profile/profile-edit-post-1.php:130
+#: template/private-profile/profile-new-post-1.php:94
+msgid "Publish"
+msgstr "Publication"
+
+#: template/private-profile/profile-edit-post-1.php:134
+#: template/private-profile/profile-new-post-1.php:98
+msgid "Pending Review"
+msgstr "En attente de modération"
+
+#: template/private-profile/profile-edit-post-1.php:159
+#: template/private-profile/profile-new-post-1.php:122
+#: template/property/property-search.php:44
+msgid "Property Type"
+msgstr "Type de bien"
+
+#: template/private-profile/profile-edit-post-1.php:168
+msgid "Choose a category"
+msgstr "Choisir une catégorie"
+
+#: template/private-profile/profile-edit-post-1.php:226
+#: template/private-profile/profile-new-post-1.php:188
+msgid "Enter address Here"
+msgstr "Entrez l'adresse ici"
+
+#: template/private-profile/profile-edit-post-1.php:230
+#: template/private-profile/profile-new-post-1.php:192
+#, fuzzy
+msgid "Enter Area Here"
+msgstr "Entrez la ville ici"
+
+#: template/private-profile/profile-edit-post-1.php:242
+#: template/private-profile/profile-new-post-1.php:204
+#, fuzzy
+msgid "Enter city "
+msgstr "Entrez la ville ici"
+
+#: template/private-profile/profile-edit-post-1.php:246
+#: template/private-profile/profile-new-post-1.php:208
+#, fuzzy
+msgid "Enter Zipcode "
+msgstr "Entrez le code postal ici"
+
+#: template/private-profile/profile-edit-post-1.php:252
+#: template/private-profile/profile-new-post-1.php:214
+#, fuzzy
+msgid "Enter State "
+msgstr "﻿Entrez la région ou l'état ici"
+
+#: template/private-profile/profile-edit-post-1.php:256
+#: template/private-profile/profile-new-post-1.php:218
+#, fuzzy
+msgid "Enter Country "
+msgstr "Entrez le pays ici"
+
+#: template/private-profile/profile-edit-post-1.php:262
+#: template/private-profile/profile-new-post-1.php:224
+#, fuzzy
+msgid "Enter latitude "
+msgstr "Entrez la latitude ici"
+
+#: template/private-profile/profile-edit-post-1.php:266
+#: template/private-profile/profile-new-post-1.php:228
+#, fuzzy
+msgid "Enter longitude "
+msgstr "Entrez la longitude ici"
+
+#: template/private-profile/profile-edit-post-1.php:274
+#: template/private-profile/profile-new-post-1.php:235
+msgid "Address Map"
+msgstr "Localisation"
+
+#: template/private-profile/profile-edit-post-1.php:301
+#: template/private-profile/profile-edit-post-1.php:305
+#: template/private-profile/profile-edit-post-1.php:315
+#, fuzzy
+msgid "Enter number"
+msgstr "Saisissez le message."
+
+#: template/private-profile/profile-edit-post-1.php:311
+#, fuzzy
+msgid "Enter number "
+msgstr "Entrez le numéro de l'annonce"
+
+#: template/private-profile/profile-edit-post-1.php:325
+msgid "e.g. $"
+msgstr ""
+
+#: template/private-profile/profile-edit-post-1.php:335
+#, fuzzy
+msgid "e.g. 2000"
+msgstr "Entrez la superficie (nombres uniquement)"
+
+#: template/private-profile/profile-edit-post-1.php:341
+msgid "e.g. ft"
+msgstr ""
+
+#: template/private-profile/profile-edit-post-1.php:503
+#, fuzzy
+msgid "Please upgrade your account to add Plan "
+msgstr ""
+"Veuillez mettre à jour votre compte pour ajouter un ou des plans d'étage"
+
+#: template/private-profile/profile-edit-post-1.php:573
+#: template/private-profile/profile-new-post-1.php:669
+msgid "Please upgrade your account to add public facilities "
+msgstr ""
+"Veuillez mettre à jour votre compte pour ajouter des équipements publics "
+
+#: template/private-profile/profile-edit-post-1.php:584
+#: template/private-profile/profile-new-post-1.php:553
+msgid "Feature"
+msgstr "Caractéristique"
+
+#: template/private-profile/profile-edit-post-1.php:596
+#: template/private-profile/profile-new-post-1.php:565
+msgid "Select Amenities/Tag"
+msgstr "Sélectionnez les prestations"
+
+#: template/private-profile/profile-edit-post-1.php:655
+#: template/private-profile/profile-new-post-1.php:615
+msgid "Add New Amenities/Tags"
+msgstr "Ajouter de nouvelles prestations"
+
+#: template/private-profile/profile-edit-post-1.php:657
+#: template/private-profile/profile-new-post-1.php:617
+msgid "Enter New Tags: Separate tags with commas"
+msgstr "Enter New Tags: Séparez les tags avec des virgules"
+
+#: template/private-profile/profile-edit-post-1.php:822
+#: template/private-profile/profile-new-post-1.php:838
+msgid "Please upgrade your account to add video "
+msgstr "Veuillez mettre à jour votre compte pour ajouter une vidéo "
+
+#: template/private-profile/profile-edit-post-1.php:832
+#: template/private-profile/profile-new-post-1.php:848
+msgid "Save Post"
+msgstr "Sauvegarder l'annonce"
+
+#: template/private-profile/profile-level-1.php:311
+msgid "Current"
+msgstr "En cours"
+
+#: template/private-profile/profile-level-1.php:314
+#: template/private-profile/profile-level-1.php:538
+msgid "Upgrade"
+msgstr "Mise a Niveau"
+
+#: template/private-profile/profile-level-1.php:318
+msgid "Cancel"
+msgstr "Annuler"
+
+#: template/private-profile/profile-level-1.php:342
+msgid "Current Package"
+msgstr "Forfait actuel"
+
+#: template/private-profile/profile-level-1.php:362
+msgid "Package Amount"
+msgstr "Formule d'adhésion"
+
+#: template/private-profile/profile-level-1.php:392
+msgid "Package Type"
+msgstr "Type de Formule"
+
+#: template/private-profile/profile-level-1.php:432
+msgid "Exprie Date"
+msgstr "Date expiration"
+
+#: template/private-profile/profile-level-1.php:454
+msgid "Next Payment Date"
+msgstr "Prochaine date de paiement"
+
+#: template/private-profile/profile-level-1.php:564
+msgid ""
+"Note: Your Successful Upgrade or Downgrade will affect on your user role "
+"immediately."
+msgstr ""
+"Note: Votre mise à niveau réussie ou Downgrade auront une incidence sur "
+"votre rôle d'utilisateur immédiatement."
+
+#: template/private-profile/profile-level-1.php:580
+#: template/private-profile/profile-level-1.php:619
+msgid "Cancel Reason"
+msgstr "Raison annulation"
+
+#: template/private-profile/profile-level-1.php:581
+#: template/private-profile/profile-level-1.php:620
+msgid "Canceling Reason"
+msgstr "Raison annulation"
+
+#: template/private-profile/profile-level-1.php:587
+#: template/private-profile/profile-level-1.php:625
+msgid "Cancel Membership"
+msgstr "Annuler adhésion"
+
+#: template/private-profile/profile-level-1.php:597
+#: template/private-profile/profile-level-1.php:634
+msgid "Nothing to Cancel"
+msgstr "Rien à Annuler"
+
+#: template/private-profile/profile-login.php:517
+msgid "Sign In"
+msgstr "Inscription / Connexion"
+
+#: template/private-profile/profile-login.php:523
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#: template/private-profile/profile-login.php:527
+#: template/signup/wizard-style-2.php:167
+msgid "Password"
+msgstr "Mot de Passe"
+
+#: template/private-profile/profile-login.php:532
+msgid "Login"
+msgstr "Connexion"
+
+#: template/private-profile/profile-login.php:536
+msgid "Remember"
+msgstr "Souvenez"
+
+#: template/private-profile/profile-login.php:539
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié ?"
+
+#: template/private-profile/profile-login.php:547
+msgid "Create an account"
+msgstr "Créer un compte"
+
+#: template/private-profile/profile-login.php:555
+msgid "Forget Password ?"
+msgstr "Mot de passe oublié ?"
+
+#: template/private-profile/profile-login.php:558
+msgid "Enter your e-mail address"
+msgstr "Veuillez entrer votre adresse email"
+
+#: template/private-profile/profile-login.php:566
+msgid "Back"
+msgstr "Retour"
+
+#: template/private-profile/profile-login.php:578
+msgid "Password Sent. Please check your email."
+msgstr ""
+
+#: template/private-profile/profile-login.php:579
+#, fuzzy
+msgid "Invalid Username & Password."
+msgstr "Nom utilisateur ou mot de passe incorrect"
+
+#: template/private-profile/profile-login.php:580
+#, fuzzy
+msgid "Enter Username & Password."
+msgstr "Entrez nom utilisateur et mot de passe"
+
+#: template/private-profile/profile-new-post-1.php:37
+msgid "Please Upgrade Your Account"
+msgstr "Veuillez mettre à jour votre compte"
+
+#: template/private-profile/profile-new-post-1.php:38
+msgid "Here"
+msgstr "Ici"
+
+#: template/private-profile/profile-new-post-1.php:39
+msgid "To Add More Post."
+msgstr "Pour ajouter plus d'annonces"
+
+#: template/private-profile/profile-new-post-1.php:99
+msgid "Draft"
+msgstr "Brouillon"
+
+#: template/private-profile/profile-new-post-1.php:126
+msgid "Choose a type"
+msgstr "Choisissez un type"
+
+#: template/private-profile/profile-new-post-1.php:542
+msgid "Please upgrade your account to add plan "
+msgstr ""
+"Veuillez mettre à jour votre compte pour ajouter un ou des plans d'étage"
+
+#: template/private-profile/profile-new-post-1.php:831
+msgid "vimeo"
+msgstr "Vimeo"
+
+#: template/private-profile/profile-setting-1.php:5
+msgid "Profile"
+msgstr "Profil"
+
+#: template/private-profile/profile-setting-1.php:9
+msgid "Personal Info"
+msgstr "Informations personnelles"
+
+#: template/private-profile/profile-setting-1.php:12
+#: template/private-profile/profile-setting-1.php:80
+msgid "Change Password"
+msgstr "Changer le mot de passe"
+
+#: template/private-profile/profile-setting-1.php:15
+msgid "Social"
+msgstr "Social"
+
+#: template/private-profile/profile-setting-1.php:18
+msgid "Privacy Settings"
+msgstr "Paramètres de confidentialité"
+
+#: template/private-profile/profile-setting-1.php:27
+#, fuzzy
+msgid "First Name"
+msgstr "Ville"
+
+#: template/private-profile/profile-setting-1.php:31
+#, fuzzy
+msgid "Last Name"
+msgstr "Ville"
+
+#: template/private-profile/profile-setting-1.php:35
+#, fuzzy
+msgid "Phone Number"
+msgstr "Masquer le numéro de téléphone"
+
+#: template/private-profile/profile-setting-1.php:39
+#, fuzzy
+msgid "Mobile Number"
+msgstr "Masquer le numéro de téléphone mobile"
+
+#: template/private-profile/profile-setting-1.php:47
+#, fuzzy
+msgid "Occupation"
+msgstr "Lieu"
+
+#: template/private-profile/profile-setting-1.php:51
+#: template/profile-public/profile-template.php:68
+#: template/property/single-property.php:317
+msgid "About"
+msgstr "A Propos"
+
+#: template/private-profile/profile-setting-1.php:55
+msgid "Website Url"
+msgstr ""
+
+#: template/private-profile/profile-setting-1.php:60
+#: template/private-profile/profile-setting-1.php:104
+#: template/private-profile/profile-setting-1.php:144
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+#: template/private-profile/profile-setting-1.php:67
+msgid "Current Password"
+msgstr "Mo de passe actuel"
+
+#: template/private-profile/profile-setting-1.php:71
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: template/private-profile/profile-setting-1.php:75
+msgid "Re-type New Password"
+msgstr "Saisir à nouveau le mot de passe"
+
+#: template/private-profile/profile-setting-1.php:114
+msgid "Hide Email Address "
+msgstr "Masquer l'adresse e-mail"
+
+#: template/private-profile/profile-setting-1.php:118
+#: template/private-profile/profile-setting-1.php:127
+#: template/private-profile/profile-setting-1.php:136
+msgid "Yes"
+msgstr "Oui"
+
+#: template/private-profile/profile-setting-1.php:123
+msgid "Hide Phone Number"
+msgstr "Masquer le numéro de téléphone"
+
+#: template/private-profile/profile-setting-1.php:132
+msgid "Hide Mobile Number"
+msgstr "Masquer le numéro de téléphone mobile"
+
+#: template/private-profile/profile-template-1.php:599
+msgid "Sign out"
+msgstr "Déconnection"
+
+#: template/private-profile/profile-template-1.php:663
+msgid "Are you sure to cancel this Membership"
+msgstr ""
+
+#: template/profile-public/profile-template.php:125
+msgid "Agent Properties"
+msgstr "Biens de l’agent"
+
+#: template/profile-public/profile-template.php:173
+msgid "VIEW DETAIL"
+msgstr "Voir détail"
+
+#: template/property/archive-property-style-1.php:245
+#: template/property/archive-property-style-1.php:247
+msgid "Date"
+msgstr "Date"
+
+#: template/property/archive-property-style-1.php:249
+#: template/property/single-property.php:392
+msgid "Price"
+msgstr "Prix"
+
+#: template/property/archive-property-style-1.php:250
+msgid "Size"
+msgstr "Taille"
+
+#: template/property/archive-property-style-1.php:452
+#: template/property/archive_feature_listing.php:118
+#: template/property/property-filter.php:281
+#: template/property/realestatepro_featured.php:175
+#: template/property/single-property.php:161
+msgid "Featured"
+msgstr "Mise en avant"
+
+#: template/property/archive-property-style-1.php:473
+#: template/property/archive_feature_listing.php:139
+#: template/property/listing-carousel.php:256
+#: template/property/property-filter.php:302
+#: template/property/realestatepro_featured.php:196
+#: template/property/single-property.php:258
+#: template/property/single-property.php:898
+msgid " Bedrooms"
+msgstr " Chambres "
+
+#: template/property/archive-property-style-1.php:481
+#: template/property/archive_feature_listing.php:147
+#: template/property/listing-carousel.php:264
+#: template/property/property-filter.php:310
+#: template/property/realestatepro_featured.php:204
+#: template/property/single-property.php:906
+msgid " Baths "
+msgstr "Salle(s) de bain"
+
+#: template/property/archive-property-style-1.php:489
+#: template/property/archive-property-style-2.php:455
+#: template/property/archive_feature_listing.php:155
+#: template/property/archive_feature_listing2.php:178
+#: template/property/listing-carousel.php:272
+#: template/property/property-filter.php:318
+#: template/property/realestatepro_featured.php:212
+#: template/property/single-property.php:914
+msgid " Garage "
+msgstr " Garage(s)"
+
+#: template/property/archive-property-style-1.php:497
+#: template/property/archive-property-style-2.php:458
+#: template/property/archive_feature_listing.php:163
+#: template/property/archive_feature_listing2.php:181
+#: template/property/listing-carousel.php:280
+#: template/property/property-filter.php:326
+#: template/property/realestatepro_featured.php:220
+#: template/property/single-property.php:922
+msgid " Guest "
+msgstr "Invité"
+
+#: template/property/archive-property-style-1.php:546
+#: template/property/archive-property-style-1.php:556
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé, aucun article ne correspond à votre recherche."
+
+#: template/property/archive-property-style-1.php:565
+#: template/property/archive-property-style-2.php:547
+msgid "Load More"
+msgstr "Afficher plus"
+
+#: template/property/archive-property-style-2.php:76
+#: template/property/property-map.php:118
+#: template/property/property-search.php:107
+#: template/property/property-search.php:110
+msgid "Location"
+msgstr "Lieu"
+
+#: template/property/archive-property-style-2.php:84
+#, fuzzy
+msgid "Filter Search"
+msgstr "Masquer la barre de recherche"
+
+#: template/property/archive-property-style-2.php:125
+#: template/property/single-property.php:1149
+#: template/property/single-property.php:1185
+#: template/property/single-property.php:1250
+msgid "Close"
+msgstr "Fermer"
+
+#: template/property/archive-property-style-2.php:126
+msgid "Send"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:337
+#: template/property/archive_feature_listing2.php:73
+msgid " Star"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:340
+#: template/property/archive_feature_listing2.php:76
+msgid " Stars"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:449
+#: template/property/archive_feature_listing2.php:172
+#, fuzzy
+msgid " Bed"
+msgstr "Min chambre(s)"
+
+#: template/property/archive-property-style-2.php:452
+#: template/property/archive_feature_listing2.php:175
+#, fuzzy
+msgid " Bath "
+msgstr "Salle(s) de bain"
+
+#: template/property/archive-property-style-2.php:548
+#, fuzzy
+msgid "Sorry, but no items match these criteria"
+msgstr "Désolé, aucun article ne correspond à votre recherche."
+
+#: template/property/archive-property-style-2.php:549
+msgid "Sort by"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:550
+msgid "Results"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:551
+msgid "Deselect all filters"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:562
+msgid "Call"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:563
+#, fuzzy
+msgid "featured"
+msgstr "Mise en avant"
+
+#: template/property/archive-property-style-2.php:565
+msgid "SMS"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:566
+#, fuzzy
+msgid "Please put your email"
+msgstr "Veuillez entrer votre message SVP"
+
+#: template/property/archive-property-style-2.php:567
+#, fuzzy
+msgid "Detail"
+msgstr "Détails"
+
+#: template/property/archive-property-style-2.php:568
+msgid "Web"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:571
+msgid "Random"
+msgstr ""
+
+#: template/property/archive-property-style-2.php:578
+msgid ""
+"I would like to inquire about the listing. The listing can be found on the "
+"site :"
+msgstr ""
+
+#: template/property/archive-top-search.php:79
+#: template/property/slider-search.php:44
+msgid "Choose a City"
+msgstr "Choisissez une ville"
+
+#: template/property/archive-top-search.php:99
+#, fuzzy
+msgid "Advance"
+msgstr "Annuler"
+
+#: template/property/archive-top-search.php:135
+#: template/property/property-search.php:49
+#: template/property/slider-search.php:75
+msgid "Any Category"
+msgstr "Toute catégorie"
+
+#: template/property/archive-top-search.php:198
+msgid "Min Price[only number]"
+msgstr "Prix min"
+
+#: template/property/archive-top-search.php:209
+msgid "Max Price"
+msgstr "Prix max"
+
+#: template/property/archive-top-search.php:220
+#, fuzzy
+msgid "Min Area (Only number)"
+msgstr "Surface min. (m²)"
+
+#: template/property/contact-form.php:11
+#: template/property/single-property.php:1177
+msgid "Message"
+msgstr "Message"
+
+#: template/property/contact-form.php:15
+msgid ""
+"I would like to inquire about your listing. Please contact me at your "
+"earliest convenience."
+msgstr ""
+
+#: template/property/loan-calculator.php:122
+#, fuzzy
+msgid "Total Price"
+msgstr "Prix max"
+
+#: template/property/loan-calculator.php:132
+#, fuzzy
+msgid "Loan Period"
+msgstr "Période essai"
+
+#: template/property/loan-calculator.php:137
+msgid "Years"
+msgstr ""
+
+#: template/property/loan-calculator.php:142
+#, fuzzy
+msgid "Down Payment"
+msgstr "Paiement initial"
+
+#: template/property/loan-calculator.php:156
+#, fuzzy
+msgid "Interest Rate"
+msgstr "﻿Entrez la région ou l'état ici"
+
+#: template/property/loan-calculator.php:167
+#, fuzzy
+msgid "Monthly Payment"
+msgstr "Paiement initial"
+
+#: template/property/loan-calculator.php:172
+msgid "Total Payable in "
+msgstr ""
+
+#: template/property/loan-calculator.php:172
+#, fuzzy
+msgid "24"
+msgstr "4"
+
+#: template/property/loan-calculator.php:172
+msgid " Years"
+msgstr ""
+
+#: template/property/loan-calculator.php:177
+#, fuzzy
+msgid "Payment Break Down"
+msgstr "Information de paiement"
+
+#: template/property/loan-calculator.php:181
+#, fuzzy
+msgid "Interest"
+msgstr "Qui est intéressé ?"
+
+#: template/property/loan-calculator.php:185
+msgid "Principle"
+msgstr ""
+
+#: template/property/property-search.php:34
+msgid "Find Your Home "
+msgstr "Trouver votre bien immobilier"
+
+#: template/property/property-search.php:120
+msgid "Radius"
+msgstr "Rayon (%)"
+
+#: template/property/property-search.php:133
+msgid "Any"
+msgstr "N'importe quel"
+
+#: template/property/property-search.php:134
+msgid "For Rent"
+msgstr "À louer"
+
+#: template/property/property-search.php:135
+msgid "For Sale"
+msgstr "À vendre"
+
+#: template/property/property-search.php:136
+msgid "Sold"
+msgstr "Vendu"
+
+#: template/property/property-search.php:158
+#: template/property/property-search.php:161
+msgid "Min Area (Sq Ft)"
+msgstr "Surface min. (m²)"
+
+#: template/property/reviews.php:63
+msgid "Average rating"
+msgstr "Note moyenne"
+
+#: template/property/reviews.php:64 template/property/reviews.php:77
+msgid "5"
+msgstr "5"
+
+#: template/property/reviews.php:74
+msgid "Rating breakdown"
+msgstr "Répartition par note"
+
+#: template/property/reviews.php:90
+msgid "4"
+msgstr "4"
+
+#: template/property/reviews.php:104
+msgid "3"
+msgstr "3"
+
+#: template/property/reviews.php:118
+msgid "2"
+msgstr "2"
+
+#: template/property/reviews.php:132
+msgid "1"
+msgstr "1"
+
+#: template/property/reviews.php:208
+msgid "Submit your review"
+msgstr "Soumettre votre avis"
+
+#: template/property/reviews.php:217
+msgid "Enter review title"
+msgstr "Donnez un titre à votre avis"
+
+#: template/property/reviews.php:222
+msgid "Rating"
+msgstr "Evaluation"
+
+#: template/property/reviews.php:241
+msgid "Comments"
+msgstr "Commentaires"
+
+#: template/property/reviews.php:244
+msgid "Enter review comments"
+msgstr "Saisissez vos commentaires ici"
+
+#: template/property/reviews.php:268
+msgid "Please login to add review"
+msgstr "Merci de vous connecter pour ajouter votre avis"
+
+#: template/property/reviews.php:272
+msgid "Please put your comment"
+msgstr "Veuillez entrer votre commentaire"
+
+#: template/property/single-property.php:206
+#: template/property/single-property.php:1274
+msgid "Added to Favorites"
+msgstr "Ajouté à vos favoris."
+
+#: template/property/single-property.php:210
+#: template/property/single-property.php:216
+#: template/property/single-property.php:1273
+msgid "Add to Favorites"
+msgstr "Ajouter aux favoris"
+
+#: template/property/single-property.php:263
+msgid " Guest"
+msgstr "Invité"
+
+#: template/property/single-property.php:282
+msgid " Baths"
+msgstr "Salle(s) de bain"
+
+#: template/property/single-property.php:302
+msgid " Garage"
+msgstr " Garage(s)"
+
+#: template/property/single-property.php:399
+#, fuzzy
+msgid "Bed Rooms"
+msgstr "Chambres"
+
+#: template/property/single-property.php:562
+#: template/property/single-property.php:567
+#: template/property/single-property.php:1076
+#: template/property/single-property.php:1079
+msgid "Contact the agent"
+msgstr "Contacter l'agent"
+
+#: template/property/single-property.php:569
+#: template/property/single-property.php:1081
+#: template/property/single-property.php:1150
+#: template/property/single-property.php:1186
+msgid "Send Message"
+msgstr "Envoyer le message"
+
+#: template/property/single-property.php:1091
+#: template/property/single-property.php:1161
+msgid "Report"
+msgstr "Rapport"
+
+#: template/property/single-property.php:1272
+msgid "Please login"
+msgstr "Connectez vous SVP"
+
+#: template/property/single-property.php:1275
+msgid "Please put your message"
+msgstr "Veuillez entrer votre message SVP"
+
+#: template/property/slider-search.php:61
+msgid "Any Type"
+msgstr "Tout type"
+
+#: template/signup/coupon_form_2.php:4
+msgid "Discount Coupon"
+msgstr "Coupon de réduction"
+
+#: template/signup/coupon_form_2.php:6
+#, fuzzy
+msgid "Enter Coupon Cod"
+msgstr "Entrer votre code de réduction"
+
+#: template/signup/coupon_form_2.php:15
+msgid "(-) Discount"
+msgstr "Remise"
+
+#: template/signup/coupon_form_2.php:24
+msgid "Total"
+msgstr "Total"
+
+#: template/signup/iv_stripe_form_2.php:81 template/signup/paypal_form_2.php:55
+msgid "Have a coupon?"
+msgstr "Vous possédez un code de réduction ?"
+
+#: template/signup/iv_stripe_form_2.php:93
+#, fuzzy
+msgid "Enter card number"
+msgstr "Entrez le numéro de fax"
+
+#: template/signup/iv_stripe_form_2.php:93
+#, fuzzy
+msgid "Invalid Card Number"
+msgstr "Numéro Carte"
+
+#: template/signup/iv_stripe_form_2.php:97
+msgid "Card CVV "
+msgstr "﻿Code CVV"
+
+#: template/signup/iv_stripe_form_2.php:100
+#, fuzzy
+msgid "Invalid CVV Number"
+msgstr "Numéro Carte"
+
+#: template/signup/iv_stripe_form_2.php:100
+#, fuzzy
+msgid "Enter card CVV"
+msgstr "﻿Code CVV"
+
+#: template/signup/wizard-style-2.php:132
+msgid "User Info"
+msgstr "Information utilisateur"
+
+#: template/signup/wizard-style-2.php:141
+msgid "User_or_Email_Exists"
+msgstr ""
+
+#: template/signup/wizard-style-2.php:156
+msgid " The user name has to be an alphanumeric value between 4-12 characters"
+msgstr ""
+"Le nom utilisateur doit être une valeur alphanumérique comprise entre 4 à 12 "
+"caractères"
+
+#: template/signup/wizard-style-2.php:162
+msgid "Please enter a valid email address"
+msgstr "Une adresse e-mail valide SVP"
+
+#: template/signup/wizard-style-2.php:170
+msgid "The password is not strong enough"
+msgstr "Le mot de passe n'est pas assez sécurisé"
+
+#: template/signup/wizard-style-2.php:183
+msgid "Payment Info"
+msgstr "Information de paiement"
+
+#: template/signup/wizard-style-2.php:225
+msgid "Hide Coupon"
+msgstr "Masquer le coupon"
+
+#: template/user-directory/directory-template-2.php:401
+#, fuzzy
+msgid "No users found"
+msgstr "Non trouvé dans la corbeille"
+
+#: admin/pages/importer/upload_main_big_csv.php:68
+msgid "Post Field/Map to field"
+msgstr ""
+
+#: admin/pages/importer/upload_main_big_csv.php:69
+msgid "CSV Column Title/Name"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Real Estate Pro"
+msgstr "REAL ESTATE PRO"
+
+#. Description of the plugin/theme
+msgid ""
+"Build Paid Property Listing using Wordpress.No programming knowledge "
+"required."
+msgstr ""
+"Ajouter un listing d'annonces immobilières payantes dans votre WordPress "
+"sans connaissance de programmation."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://e-plugin.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "e-plugin"
+msgstr ""
