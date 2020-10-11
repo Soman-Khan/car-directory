@@ -392,19 +392,19 @@
 										}
 									?>
 									<div class="col-md-6">
-										<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Type', 'ivproperty'); ?>: <strong>
-										<?php echo esc_html($selected).' '.esc_html(get_post_meta($id,'property_status',true)); ?></strong></p>
+										<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Engine Power', 'ivproperty'); ?>: <strong>1800
+										<?php //echo esc_html($selected).' '.esc_html(get_post_meta($id,'property_status',true)); ?></strong></p>
 									</div>
 									<div class="col-md-6">
-										<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Price', 'ivproperty'); ?>: <strong>
-										<?php echo esc_html($rent_text); ?></strong></p>
+										<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Mileage', 'ivproperty'); ?>: <strong>
+										<?php //echo esc_html($rent_text); ?>15kmpl</strong></p>
 									</div>
 									<?php
 										if(get_post_meta($id,'bedrooms',true)!='' ){
 										?>
 										<div class="col-md-6">
-											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Bed Rooms', 'ivproperty'); ?>: <strong>
-											<?php echo esc_html(get_post_meta($id,'bedrooms',true)); ?></strong></p>
+											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Fuel Type', 'ivproperty'); ?>: <strong>
+											<?php //echo esc_html(get_post_meta($id,'bedrooms',true)); ?>Hybrid</strong></p>
 										</div>
 										<?php
 										}
@@ -413,7 +413,7 @@
 										if(get_post_meta($id,'area',true)!='' ){
 										?>
 										<div class="col-md-6">
-											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Area', 'ivproperty'); ?>: <strong>
+											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Year of Manufucture', 'ivproperty'); ?>: <strong>
 											<?php echo esc_html(get_post_meta($id,'area',true)).' '.esc_html(get_post_meta($id,'area_postfix_text',true)); ?></strong></p>
 										</div>
 										<?php
@@ -423,7 +423,7 @@
 										if(get_post_meta($id,'bathrooms',true)!='' ){
 										?>
 										<div class="col-md-6">
-											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Bathrooms', 'ivproperty'); ?>: <strong>
+											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Total Drive', 'ivproperty'); ?>: <strong>
 											<?php echo esc_html(get_post_meta($id,'bathrooms',true)); ?></strong></p>
 										</div>
 										<?php
@@ -433,7 +433,7 @@
 										if(get_post_meta($id,'guest',true)!='' ){
 										?>
 										<div class="col-md-6">
-											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Guest Room', 'ivproperty'); ?>: <strong>
+											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Transmission', 'ivproperty'); ?>: <strong>
 											<?php echo esc_html(get_post_meta($id,'guest',true)); ?></strong></p>
 										</div>
 										<?php
@@ -443,7 +443,7 @@
 										if(get_post_meta($id,'garages',true)!='' ){
 										?>
 										<div class="col-md-6">
-											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Garages', 'ivproperty'); ?>: <strong>
+											<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e('Body', 'ivproperty'); ?>: <strong>
 											<?php echo esc_html(get_post_meta($id,'garages',true)); ?></strong></p>
 										</div>
 										<?php
@@ -456,7 +456,7 @@
 												if(get_post_meta($id,$field_key,true)!=""){
 												?>
 												<div class="col-md-6">
-													<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e($field_value_trim, 'ivproperty'); ?>: <strong><?php echo esc_html(get_post_meta($id,$field_key,true)); ?></strong></p>
+													<p><i class="fas fa-angle-right"></i> <?php echo  esc_html_e($field_value_trim, 'ivproperty'); ?>:<strong><?php echo esc_html(get_post_meta($id,$field_key,true)); ?></strong></p>
 												</div>
 												<?php
 												}
