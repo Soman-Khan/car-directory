@@ -33,7 +33,6 @@
 
 .whole-container a{
     text-decoration: none !important;
-
     margin: 0;
 }
 .whole-container a:active, .whole-container a:focus {
@@ -166,15 +165,14 @@
     font-weight: 300 !important;
     color: #000 !important;
     display: block;
-    display: -webkit-box;
     max-width: 100%;
-    height: 43px;
-    margin: 0 auto;
-    line-height: 20px !important;
-    -webkit-line-clamp: 2;
+    /* height: 43px; */
+    margin: 10px auto !important;
+    /* line-height: 20px !important; */
+    /* -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
 }
 .category{
     font-size: 14px !important;

@@ -19,20 +19,35 @@ document.querySelector(".filter").addEventListener("click", function(){
              '</a>'+
 			 '</div>' +
              '<div class="list-content">' +
-				'<a href="<%= obj.link %>"><h4 class="name"><%= obj.price %></a> <small><%= obj.type %></small></h4>' +
-                 '<a href="<%= obj.link %>"><h4 class="name"><%= obj.title %></h4></a>' +
+				'<a href="<%= obj.link %>"><h4 class="name"><%= obj.price %> <small><%= obj.type %></small></h4></a>' +
+                 '<a href="<%= obj.link %>"><h4 class="name">BMW M4</h4></a>' +
                  '<p class="tags">' +
-    				 '<i class="fas fa-map-marker-alt"></i> <% if (obj.address) {  %><%= obj.address %> <% } %> ' +
-					 '<% if (obj.zipcode) {  %><%= obj.zipcode %> <% } %> ' +
-                     '<% if (obj.city) {  %><%= obj.city %> <% } %> ' +
+                    '<span class="mr-2">'+
+    				     '<i class="fas fa-tachometer-alt"></i> 1800HP' +
+                     '</span>'+
+                     '<span class="mr-2">'+
+     				     '<i class="fas fa-gas-pump"></i> Hybrid' +
+                      '</span>'+
+                      '<span class="mr-2">'+
+      				     '<i class="fas fa-cogs"></i> Automatic' +
+                      '</span>'+
+                     '<span>'+
+       				     '<i class="fas fa-road"></i> 13kmpl' +
+                     '</span>'+
                  '</p>' +
                  '<p class="category">' +
-				 '<% if (obj.area){ %><i class="'+dirpro_data2.property_top_4_icon+' fa-xs ml-1"></i><span class="ml-1"><%= obj.area %> </span><% } %>'+
-				 '<% if (obj.bedrooms){ %><i class="'+dirpro_data2.property_top_2_icon+' fa-xs ml-1"></i><span class="ml-1"><%= obj.bedrooms %> </span><% } %>'+
-				 '<% if (obj.bathrooms){ %><i class="'+dirpro_data2.property_top_3_icon+' fa-xs ml-1"></i><span class="ml-1"><%= obj.bathrooms %> </span><% } %>'+
-				 '<% if (obj.garages){ %><i class="fas fa-car fa-xs ml-1"></i><span class="ml-1"><%= obj.garages %> </span><% } %>'+
-				 '<% if (obj.guest){ %><i class="fas fa-user fa-xs ml-1"></i><span class="ml-1"><%= obj.guest %> </span><% } %>'+
-
+                 '<span class="mr-2">'+
+                      '<i class="fas fa-car-side"></i> Sedan' +
+                  '</span>'+
+                  '<span class="mr-2">'+
+                      '<i class="fas fa-car-crash"></i> Antilock Brakes' +
+                   '</span>'+
+                   '<span class="mr-2">'+
+                      '<i class="fas fa-chair"></i> Heated Seats' +
+                   '</span>'+
+                  '<span>'+
+                      '<i class="fas fa-oil-can"></i> 20L' +
+                  '</span>'+
                  '</p>' +
                  '<% if(obj.review_show >="yes" ){%>  <p class="author-star">' +
                     '<span class="star-icons">' +

@@ -163,7 +163,7 @@
 				<div class="<?php echo($directories_layout_single=='one'?'col-md-12':'col-md-8') ?> agent-info__content">
 					<div class="row my-5 px-5 d-flex">
 						<div class="col-md-10 d-flex flex-column">
-							<h2><?php echo esc_html($post_id_1->post_title); ?> <?php
+							<h2><?php //echo esc_html($post_id_1->post_title); ?>THE BMW M4 <?php
 								if(get_post_meta($id,'realpro_featured',true)=="featured"){ ?>
 								<span class="text-white agent-info__feature"><?php  esc_html_e('Featured', 'ivproperty' ); ?></span>
 								<?php
@@ -173,7 +173,8 @@
 							<br>
 							<p class="agent-info__address m-0 p-0">
 								<i class="fas fa-map-marker-alt"></i>
-								<?php echo get_post_meta($id,'address',true);?> <?php echo get_post_meta($id,'city',true);?> <?php echo get_post_meta($id,'zipcode',true);?> <?php echo get_post_meta($id,'country',true);?>
+                                Wild at Art: Art on Wheels
+								<?php //echo get_post_meta($id,'address',true);?> <?php //echo get_post_meta($id,'city',true);?> <?php //echo get_post_meta($id,'zipcode',true);?> <?php //echo get_post_meta($id,'country',true);?>
 								<?php
 									$dir5_review_show=get_option('dir5_review_show');
 									if($dir5_review_show==""){$dir5_review_show='yes';}

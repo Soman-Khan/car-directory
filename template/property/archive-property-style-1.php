@@ -38,7 +38,7 @@ if($dir_style5_perpage==""){$dir_style5_perpage=20;}
 	$args = array(
 		'post_type' => $directory_url, // enter your custom post type
 		'paged' => $paged,
-		'post_status' => 'publish',	
+		'post_status' => 'publish',
 		'posts_per_page'=> $dir_style5_perpage,  // overrides posts per page in theme settings
 	);
 	$lat='';$long='';$keyword_post='';$address='';$postcats ='';$selected='';
@@ -64,9 +64,9 @@ if($dir_style5_perpage==""){$dir_style5_perpage=20;}
 	}
 	if(get_query_var($directory_url.'_tag')!=''){
 			$postcats = get_query_var($directory_url.'_tag');
-			$args[$directory_url.'_tag']=$postcats;			
+			$args[$directory_url.'_tag']=$postcats;
 			$search_show=1;
-	}	
+	}
 	if( isset($_POST['keyword'])){
 		if($_POST['keyword']!=""){
 			$args['s']= sanitize_text_field($_REQUEST['keyword']);
@@ -209,7 +209,7 @@ if($active_filter==""){$active_filter='category';}
 if($active_filter=="tag"){
 	if( isset($_POST['tag_arr'])){
 		if($_POST['tag_arr']!=""){
-			$tag_arr= $_POST['tag_arr'];		
+			$tag_arr= $_POST['tag_arr'];
 			$tags_string= implode("+", $tag_arr);
 			$args['tag']= $tags_string;
 		}
@@ -316,7 +316,7 @@ if($active_filter=="tag"){
 	</div>
 	<?php
 	$args2 = array(
-		'type'                     => $directory_url,		
+		'type'                     => $directory_url,
 		'orderby'                  => 'name',
 		'order'                    => 'ASC',
 		'hide_empty'               => true,
@@ -335,14 +335,14 @@ if($active_filter=="tag"){
 	}
 	endif;
 }
-$property_top_1_icon=get_option('property_top_1_icon');	
-if($property_top_1_icon==""){$property_top_1_icon='fas fa-home';}
-$property_top_2_icon=get_option('property_top_2_icon');	
-if($property_top_2_icon==""){$property_top_2_icon='fas fa-bed';}
-$property_top_3_icon=get_option('property_top_3_icon');	
-if($property_top_3_icon==""){$property_top_3_icon='fas fa-shower';}	
-$property_top_4_icon=get_option('property_top_4_icon');	
-if($property_top_4_icon==""){$property_top_4_icon='fas fa-expand';}		
+$property_top_1_icon=get_option('property_top_1_icon');
+if($property_top_1_icon==""){$property_top_1_icon='fas fa-car-side';}
+$property_top_2_icon=get_option('property_top_2_icon');
+if($property_top_2_icon==""){$property_top_2_icon='fas fa-car-crash';}
+$property_top_3_icon=get_option('property_top_3_icon');
+if($property_top_3_icon==""){$property_top_3_icon='fas fa-chair';}
+$property_top_4_icon=get_option('property_top_4_icon');
+if($property_top_4_icon==""){$property_top_4_icon='fas fa-oil-can';}
 			?>
     </div>
   </div>
@@ -430,7 +430,7 @@ if($property_top_4_icon==""){$property_top_4_icon='fas fa-expand';}
 							<a href="<?php echo get_the_permalink($id);?>"><img src="<?php echo esc_url($feature_img);?>" class="card-img-top"></a>
 							</div>
 							<div class="card-img-overlay text-white font-weight-bold">
-                            
+
 								<?php
 									$current_property_status = get_post_meta($id,'property_status',true);
 									$rent_text=get_post_meta($id,'price_postfix_text',true). get_post_meta($id,'sale_or_rent_price',true) ;
@@ -443,7 +443,8 @@ if($property_top_4_icon==""){$property_top_4_icon='fas fa-expand';}
 									if($current_property_status =='Sold'){
 										$rent_text= get_post_meta($id,'area',true).' '.get_post_meta($id,'area_postfix_text',true).'|'. get_post_meta($id,'price_postfix_text',true).get_post_meta($id,'sale_or_rent_price',true) ;
 									}
-									echo esc_html($rent_text);									
+									//echo esc_html($rent_text);
+                                    echo "BMW M4 | $45000";
 								?>
 							</div>
 							<?php
@@ -462,51 +463,26 @@ if($property_top_4_icon==""){$property_top_4_icon='fas fa-expand';}
 								}
 								?>
 							<div class="card-body px-4 mt-0 card-body-min-height">
-								<a href="<?php echo get_permalink($id); ?>" class="cbp-caption cbp-l-grid-projects-title mt-0"><p class="realtitle m-0 p-0"><?php echo esc_html($post->post_title);?></p></a>
-								<p class="card-text p-0 m-0 address"><?php echo get_post_meta($id,'address',true);?> <?php echo get_post_meta($id,'city',true);?> <?php echo get_post_meta($id,'zipcode',true);?> <?php echo get_post_meta($id,'country',true);?></p>
+								<a href="<?php echo get_permalink($id); ?>" class="cbp-caption cbp-l-grid-projects-title mt-0"><p class="realtitle m-0 p-0"><?php //echo esc_html($post->post_title);?>THE BMW M4</p></a>
+								<p class="card-text p-0 m-0 address">
+                                    <?php //echo get_post_meta($id,'address',true);?> <?php //echo get_post_meta($id,'city',true);?> <?php //echo get_post_meta($id,'zipcode',true);?> <?php //echo get_post_meta($id,'country',true);?>
+                                    Auto Transmission, Hybrid, 1800 Horse Power
+                                </p>
 								<p class="mt-2 short-desc">
-									<?php
-									if(get_post_meta($id,'area',true)!=""){ ?>
-											<i class="<?php echo esc_html($property_top_4_icon);?> fa-xs ml-1"></i><span class="ml-1"> <?php
-											echo get_post_meta($id,'area',true).' '.get_post_meta($id,'area_postfix_text',true).' ';
-											?></span>
-									<?php
-									}
-									?>
-									<?php
-									if(get_post_meta($id,'bedrooms',true)!=""){ ?>
-									<i class="<?php echo esc_html($property_top_2_icon);?> fa-xs ml-1"></i> <span class="ml-1"> <?php
-									echo get_post_meta($id,'bedrooms',true);
-									?><?php  esc_html_e(' Bedrooms','ivproperty'); ?></span>
-									<?php
-										}
-									?>
-									<?php
-									if(get_post_meta($id,'bathrooms',true)!=""){ ?>
-									<i class="<?php echo esc_html($property_top_3_icon);?> fa-xs ml-1"></i><span class="ml-1"><?php
-									echo get_post_meta($id,'bathrooms',true);
-									?><?php  esc_html_e(' Baths ','ivproperty'); ?></span>
-									<?php
-										}
-									?>
-									<?php
-									if(trim(get_post_meta($id,'garages',true))!=""){ ?>
-									<i class="fas fa-car fa-xs ml-1"></i> <span class="ml-1"> <?php
-									echo get_post_meta($id,'garages',true);
-									?><?php  esc_html_e(' Garage ','ivproperty'); ?></span>
-									<?php
-										}
-									?>
-									<?php
-									if(get_post_meta($id,'guest',true)!=""){ ?>
-									<i class="fas fa-user fa-xs ml-1"></i> <span class="ml-1"> <?php
-									echo get_post_meta($id,'guest',true);
-									?><?php  esc_html_e(' Guest ','ivproperty'); ?></span>
-									<?php
-										}
-									?>
+                                    <span class="mr-2">
+                                         <i class="fas fa-car-side"></i> Sedan
+                                     </span>
+                                     <span class="mr-2">
+                                         <i class="fas fa-car-crash"></i> Antilock Brakes
+                                      </span>
+                                      <span class="mr-2">
+                                         <i class="fas fa-chair"></i> Heated Seats
+                                      </span>
+                                     <span>
+                                         <i class="fas fa-oil-can"></i> 20L
+                                     </span>
 								</p>
-								<p class="mt-0"><?php echo ucfirst($cat_name2).' '; ?><?php  esc_html_e($current_property_status, 'ivproperty' ); ?></p>
+								<p class="mt-0"><?php echo "Premium Car".' '; ?><?php  esc_html_e($current_property_status, 'ivproperty' ); ?></p>
 								<p class="d-flex mt-2">
 									<span class="review">
 									 <?php
